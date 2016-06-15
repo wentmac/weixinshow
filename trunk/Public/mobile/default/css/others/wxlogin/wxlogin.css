@@ -1,0 +1,127 @@
+/*微信login*/
+
+.wxlogin{ background:#FFFFFF; margin: 10px 10px 0px; padding-bottom: 20px}
+
+.wxlogin p.status{ padding:25px 0px 10px 0px ;}
+.wxlogin p.txt1{ height: 30px; line-height: 30px; font-size: 16px; text-align: center}
+.wxlogin p.txt2{ height: 30px; font-size: 12px; text-align: center; color: #919191}
+#pay_scuuess_bg{
+	width: 44px;
+	height: 44px;
+	border: #b91c26 solid 2px;
+	border-radius: 25px;
+	vertical-align:middle;
+	margin-right:4px; display: block; position: relative;
+	margin: 0px auto;
+}
+
+#pay_scuuess_icon{
+	width: 8px;
+	height: 19px;overflow:hidden;
+	border-right: 2px solid #b91c26;
+	border-bottom: 2px solid #b91c26;-webkit-transform:rotate(45deg);transform:rotate(45deg);
+	left: 18px; display: block;
+	top: 10px;
+	border-radius: 2px;
+}
+
+.mycart_input_p input,.mycart_input_p select{
+	width:100%;
+	height:44px !important;
+	line-height:44px !important;
+
+	font-size:14px !important;
+	text-indent:10px !important;
+	border-radius:0 !important;
+	background-color:#fff !important
+}
+.quekou{ background: #fff; width: 8px; height: 8px; display: block; left: 3px; top: 37px; border-radius: 10px;}
+#country{ height: 44px; line-height: 44px; font-size: 14px; background: #fff}
+.logininput{ padding:20px;}
+.logininput h2{ font-size: 14px; font-weight: normal;  padding-bottom: 12px;}
+.logininput h2 span{ color: #d93229; }
+.logininput li{ line-height: 30px; border: #d5d5d5 solid 1px; margin-bottom: 10px;}
+
+.nextBtn{ color: #fff;}
+
+#login_wrap{ background: #fff; margin: 10px;}
+#login_wrap p.telephone{ text-align: center; padding: 20px 0px 10px 0px;}
+#login_wrap p.tel{ text-align: center; font-size: 22px;}
+#login_wrap p.telephone span{ color: #d93229; padding: 0px 2px;}
+.telephone{}
+
+#safe_code_input{ border: 1px solid #d5d5d5;height: 42px; line-height: 42px; text-indent: 8px}
+#catch_code_btn{height: 44px; line-height: 44px; border-radius: 3px;background-color: #e8e8e8;
+	color: #d93229;}
+
+#catch_times{ background: #f9f9f9; color: #d93229;height: 44px; line-height: 44px; border-radius: 3px;}
+#login_form_submit{ margin-top: 15px;}
+
+/*绑定失败*/
+
+.bindError{ text-align: center; padding-top: 100px;}
+
+.errorBg{width: 54px;height: 54px;border: #cf5d65 solid 2px;border-radius: 29px;vertical-align:middle;margin-right:4px; display: block; position: relative;margin: 0px auto;}
+
+
+
+.errorBg em.cha:before,.errorBg em.cha:after{
+    content:"";
+    width:2px;
+    height:34px;
+    top:10px;
+    left:0px;
+    position:absolute;
+    background-color:#cf5d65;
+}
+
+.errorBg em.cha:before{ 
+	-webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg)}
+.errorBg em.cha:after{
+	-webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg)
+    }
+
+.errorBg em.que{ background:#fff; width: 5px; height: 5px; display: block; top: 44px; left: 5px; border-radius: 5px; background: #e3e2e2;}
+/*.errorBg em.cha:after{ 
+	-webkit-transform: rotate(45deg);content: '',left: 10px; top: 0px; border: #ccc solid 1px;width: 10px; height: 2px; overflow: hidden;
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+    }*/
+.bindError p.txt{ height: 35px; line-height: 35px; padding-top: 5px;}
+.bindError p.relogin{width: 90px;margin: 0 auto;overflow: auto; position: relative;}
+.bindError p.relogin a{ color: #c32023;float: left;}
+
+.bindError p.relogin em{
+	width:9px;
+	height:9px;
+	border-bottom:2px solid #717171;
+	border-right:2px solid #717171;
+	top:6px;
+	right:6px; position: absolute;
+	border-radius:1px; display: block;
+	-webkit-transition:-webkit-transform .5s ease;
+	transition:transform .5s ease;
+	-webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg)
+}
+
+
+
+
+
+
+
+
+

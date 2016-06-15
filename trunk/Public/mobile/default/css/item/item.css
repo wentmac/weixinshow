@@ -1,0 +1,809 @@
+body{padding-bottom:57px}
+#item_info{background-color:#fff;}#item_show{width:100%}#item_show>img{display:block;margin:0 auto}
+#item_name{font-size:15px;word-break:break-all; padding: 12px 17px 0 17px; color:#454544}
+#item_discount{font-size:12px;color:#fff;padding:2px 4px;border-radius:2px;margin-left:-4px}
+#control_wrap,#seller_wrap{padding:10px 15px 15px;background-color:#fff;}
+.control_tle{padding-bottom:6px}
+.sku_li{margin-bottom:8px;margin-right:8px;display:inline-block}
+.sku_li:last-child{margin-bottom:0}
+.sku_a{line-height:18px;border:1px solid #939393;background-color:#fafafa;padding:6px 14px;display:inline-block;word-break:break-all}
+.current_sku{border-color:#c60a1e;color:#c60a1e}
+#control_count{padding-top:10px;margin-top:10px;border-top:1px solid #e9e9e9}
+#control_sub,#control_num,#control_add,#control_stock{height:34px;line-height:34px}#control_sub,#control_add{width:30px;border-top:1px solid #e3e3e3;border-bottom:1px solid #e3e3e3;background:#fff;background:-webkit-gradient(linear,center top,center bottom,from(#fff),to(#eeefee));font-size:24px;cursor:pointer}#control_sub{border-left:1px solid #e3e3e3}#control_add{border-right:1px solid #e3e3e3}
+#control_num{width:50px;padding:0 30px}
+#control_stock{margin-left:10px;font-size:12px; color: #707070}
+#seller_info{height:50px}
+#seller_name{font-size:15px}
+#seller_name img{ width:35px; margin-left: 10px}
+#seller_weixin{font-size:12px;color:#707070;overflow: hidden;height: 18px;white-space:nowrap;text-overflow:ellipsis; line-height: 19px;}
+#detail_wrap{overflow:hidden}#detail_wrap>img{display:block}#detail_loading{height:200px}
+#noItemShow{padding:80px 0px; text-align: center}
+#noItemShow span{ display: block; width: 100%}
+#noItemShow span a{ color: #2b86e0}
+
+#item_seller{
+    padding:15px 17px;
+    background-color:#fff
+}
+#item_seller,#item_detail,#guarantee,#control_title{
+    margin-top: 8px;
+}
+#seller_entry_wrap{
+    margin-top:10px;
+    height:35px;
+}
+#enter_shop_class,#enter_shop{
+    width:49%;
+    height:100%;
+    line-height:35px;
+}
+#enter_shop_class{
+    border-right:1px solid #eee;
+}
+#enter_shop_class em,#enter_shop em{
+    width:17px;
+    height:17px;
+    background:url(http://s.koudai.com/images/item/seller_wrap_icon.png?v=2015051400108) 0 0 no-repeat;
+    background-size:17px;
+    display:inline-block;
+    vertical-align:text-top;
+    margin-right:8px
+}
+#enter_shop em{
+    background-position:0 -21px
+}
+#show_controls,#control_seckill_inner{
+    background-color:#fff;
+    padding:15px;
+}
+#show_controls{
+    padding-left:54px;
+    padding-right:25px;
+}
+#selected_sku_des_tle{
+    left:15px;
+    top:15px;
+}
+#show_controls_arrow{
+    top:22px !important;
+}
+#item_select_sku_count{
+    height:100%;
+    background-color:rgba(0,0,0,.8);
+    top:0;
+    left:0;
+    z-index:101;
+}
+#cps_wrap{background-color:#f5f5f5;width:100%;height:100%;z-index:101;top:0;left:0; z-index:1000}#cps_inner{padding:20px 10px}
+#selected_sku_des{
+    word-break:break-all
+}
+#show_controls_arrow,#free_delivery_em:after{
+    content:"";
+    width:7px;
+    height:7px;
+    border-right:1px solid #5d5d5d;
+    border-bottom:1px solid #5d5d5d;
+    top:28px;
+    right:15px;
+    position:absolute;
+    -webkit-transform:rotate(-45deg);
+       -moz-transform:rotate(-45deg);
+        -ms-transform:rotate(-45deg);
+         -o-transform:rotate(-45deg);
+            transform:rotate(-45deg);
+}
+#seller_wrap{
+    min-height:62px;
+    padding-top:0;
+    padding-bottom:15px;
+    padding-right:0;
+    padding-left:80px;
+    border-bottom:1px solid #eee
+}
+#seller_thumb_wrap{
+    width:62px;
+    height:62px;
+    top:0;
+    left:0;
+}
+#seller_thumb_wrap,#seller_thumb{
+    border-radius:31px;
+}
+.cps_btns{
+	width:100%;
+	height:45px;
+	line-height:45px;
+	color:#fff;
+	font-size:16px;
+	border-radius:3px;
+	background-color:#dd2525;
+	display:block
+}
+.border_wrap{
+	padding:20px 15px;
+	margin-bottom:10px;
+	background-color:#fff;
+	border-radius:3px;
+	border:1px solid #dcdcdc;
+}
+#cps_tele,#cps_url{
+	margin:10px 0;
+	font-size:14px;
+	border:1px solid #e1e1e1;
+	background-color:#f6f6f6;
+	border-radius:0;
+	-webkit-appearance: none;	
+}
+#cps_tele{
+	width:100%;
+	height:20px;
+	line-height:20px;
+	padding: 10px 0px;
+	text-indent:10px;
+}
+#cps_url{
+	width:90%;
+	line-height:22px;
+    padding:10px 5%;
+}
+.cps_tip{
+	font-size:12px;
+	line-height:16px;
+	color:#b6b6b6;
+	margin-bottom:4px;
+}
+.cps_tip_icon{
+	width:16px;
+	height:16px;
+	background-color:#b6b6b6;
+	color:#fff;
+	text-align:center;
+	border-radius:16px;
+}
+#cps_icon{
+	width:100%;
+	height:100%;
+	background:url(http://s.koudai.com/images/item/cps_icon.png?v=2015051400108) right top no-repeat rgba(0,0,0,.8);
+	background-size:290px;
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:102;
+}
+#share_for_money{
+    color: #d14b35;
+    top:12px;
+    right:0;
+    z-index:2
+}
+
+/*评分显示*/
+.itemrank{height: 32px; line-height: 32px; padding:0 17px; background: #f2f2f2}
+.itemrank span{ float: left;color: #919191}
+
+.itemrank .rank-num{ height:32px; line-height:32px; position: relative;float: right; padding-left: 105px}
+.itemrank .rank-num span{ position: absolute; left: 0; top:5px;background: url(http://s.koudai.com/images/common/ranknum.png?v=2015051400108) left top no-repeat; background-size: 100px; width:100px;  display: block; height: 20px;}
+.itemrank .rank-num span.grey{background-position: left top; z-index: 0; width: 100px;}
+.itemrank .rank-num span.orange{background-position: left -20px;z-index: 1; width: 0; }
+.rank-num em{ color:#919191}
+
+
+#share_for_money_icon{
+	width:16px;
+	height:16px;
+	line-height:16px;
+    font-size:12px;
+	border-radius:8px;
+    vertical-align:text-top;
+    background-color:#d14b35;
+    color:#fff
+}
+#sold{
+    bottom: 1px;
+    left: 15px;
+    z-index: 10;
+    color: #fff;
+    font-family: "黑体";
+}
+#item_price_wrap{
+    line-height:20px;
+    vertical-align:bottom;
+}
+#item_price_wrap,#item_other_info{
+    padding:12px 0;
+    margin:0 17px;
+}
+#item_other_info{
+    border-top: 1px solid #eee;
+    padding: 18px 0 18px 0;
+}
+#item_price,#express_money_show{
+    color:#919191;
+}
+#item_price{
+    line-height:20px;
+    overflow:visible;
+    padding:0;
+    color:#c60a1e;
+    font-size:20px;
+	display:inline-block;
+}
+#seckill_discount{
+    color:#fff;
+    font-size:12px;
+    border-radius:2px;
+    background-color:#d93229;
+    padding:0 12px;
+    vertical-align:top;
+    margin-left:6px
+}
+#item_price.del,#control_item_info_price.del{
+    text-decoration:line-through;
+    font-size:14px;
+    color:#919191
+}
+#seckill_price,#control_seckill_price{
+    color:#d93229;
+    margin-right:6px;
+    font-size:20px;
+}
+#control_seckill_price{
+    vertical-align:top
+}
+#showBigImg{
+	width:100%;
+	height:100%;
+	background-color:#000;
+	display:none;
+	position:fixed;
+	overflow:scroll;
+	top:0;
+	left:0;
+	z-index:1003;
+}
+#showBigImg_i{
+	width:100%;
+	display:block;
+}
+#item_num{
+    width:48px;
+    height:32px;
+    line-height:32px;
+    font-size:16px;
+    color:#000;
+    border:1px solid #939393;
+}
+#control_num_sub,#control_num_add{
+    width:30px;
+    height:34px;
+    line-height:34px;
+    top:0;
+    color:#d93229;
+    font-family:serif;
+    font-size:30px;
+}
+#control_num_sub{
+    left:0;
+}
+#control_num_add{
+    right:0;
+}
+#submit_cps_url{
+    margin-top:10px;
+}
+#seckill_left em,#seckill_right em{
+    color:#d93229;
+    padding:0 5px;
+    font-size:16px
+}
+#seckill_right{
+}
+#control_seckill_wrap,#express_money_show,#free_delivery{
+    padding-top:10px
+}
+#seckill_left,#seckill_right{
+    font-size:14px;
+    color:#919191;
+}
+#seckill_discount,#seckill_left,#seckill_right{
+    display:inline-block;
+    line-height:20px
+}
+/*
+#seckill_icon{
+    top:0;
+    left:0;
+    width:40px;
+    height:100%;
+    line-height:40px;
+    background-color:#5d5d5d;
+    border-right:1px solid #fff;
+}
+#seckill_icon:before,#seckill_icon:after{
+    content:"";
+    border-color:#fff;
+    border-style:solid;
+    position:absolute;
+}
+#seckill_icon:before{
+    width:12px;
+    height:12px;
+    border-radius:7px;
+    border-width:1px;
+    top:13px;
+    left:13px;
+}
+#seckill_icon:after{
+    width:2px;
+    height:4px;
+    border-width:0 0 1px 1px;
+    top:16px;
+    left:19px;
+}
+#seckill_icon.ing,#seckill_left.ing{
+    background-color:#c60a1e
+}
+#seckill_icon.end,#seckill_left.end{
+    background-color:#9a9a9a;
+}
+*/
+#guarantee{background-color:#fff;overflow: hidden;margin-top: 0;}
+#guarantee span{
+    line-height:24px;
+    height:24px; 
+    font-size: 12px; 
+    color:#919191;
+    text-indent: 26px; 
+    display:inline-block;
+    float: left;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 50%;
+    margin-bottom: 9px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.guarantee_wrap {
+    background-color: #fff;
+    padding: 15px 15px 6px 15px;
+    margin-top: 8px;
+    display: none;
+}
+.g_quanqiugou {
+    background-image: url(http://s.koudai.com/images/common/guarantee/g_quanqiugou.png?v=2015051400108);
+}
+.g_danbao {
+    background-image: url(http://s.koudai.com/images/common/guarantee/g_danbao.png?v=2015051400108);
+}
+.g_sfcashondelivery {
+    background-image: url(http://s.koudai.com/images/common/guarantee/g_sfcashondelivery.png?v=2015051400108);
+}
+.g_7days {
+    background-image: url(http://s.koudai.com/images/common/guarantee/g_7days.png?v=2015051400108);
+}
+.g_honesty {
+    background-image: url(http://s.koudai.com/images/common/guarantee/g_honesty.png?v=2015051400108);
+}
+.g_11 {
+    background-image: url(http://s.koudai.com/images/common/guarantee/g_11.png?v=2015051400108);
+}
+.g_taobao {
+    background-image: url(http://s.koudai.com/images/common/guarantee/g_taobao.png?v=2015051400108);
+}
+.g_tmail {
+    background-image: url(http://s.koudai.com/images/common/guarantee/g_tmail.png?v=2015051400108);
+}
+.g_cashondelivery {
+    background-image: url(http://s.koudai.com/images/common/guarantee/g_cashondelivery.png?v=2015051400108);
+}
+.g_wechat {
+    background-image: url(http://s.koudai.com/images/common/guarantee/g_wechat.png?v=2015051400108);
+}
+.pdcolor{ background: #fff; padding:10px;}
+#invited_em{
+    width:7px;
+    height:7px;
+    border-right:1px solid #5d5d5d;
+    border-bottom:1px solid #5d5d5d;
+    right:15px;
+    top:20px;
+    -webkit-transform:rotate(-45deg);
+       -moz-transform:rotate(-45deg);
+        -ms-transform:rotate(-45deg);
+         -o-transform:rotate(-45deg);
+            transform:rotate(-45deg);
+}
+#invite_open_warrant{
+    padding-left:20px;
+    background:url(http://s.koudai.com/images/common/invite.jpg?v=2015051400108) no-repeat 0 center;
+    background-size: 14px
+}
+
+#item_seller_loading{
+    height:100px;
+    background-color:#fff;
+    border-radius:3px;
+}
+#item_wrap_loading{
+    height:60px;
+    background-color:#f0f0f0
+}
+#wx_icon_a{
+    top:3px
+}
+#wx_icon_b{
+    top:8px
+}
+#video_wrap{
+    width:100%;
+    height:240px;
+    position:relative;
+    margin-bottom:10px;
+}
+#video,#video_thumb,#video_btn_wrap{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+#video{
+    z-index:2;
+    display:block;
+    top:-10000px;
+}
+.show_video{
+    display:block !important;
+    top:0 !important;
+}
+#video_thumb{
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:100%;
+    z-index:3;
+}
+#video_btn_wrap{
+    z-index:7;
+}
+#video_btn_a{
+    width:90px;
+    height:90px;
+    border-radius:45px;
+    background-color:rgba(255,255,255,.8);
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:-45px 0 0 -45px;
+    z-index:5;
+}
+#video_btn_b{
+    width:0;
+    height:0;
+    border-style:solid;
+    border-width:30px 0 30px 40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:-30px 0 0 -15px;
+    border-color:transparent transparent transparent #666;
+    z-index:6;
+}
+/*
+#video_play{
+    width:40px;
+    height:40px;
+    border:1px solid #fff;
+    left:50%;
+    top:50%;
+    margin:-20px 0 0 -20px;w
+}*/
+
+#item_fix_btn{
+    height:50px;
+    left:0;
+    bottom:0;
+    z-index:102;
+}
+#control_btn,#control_bottom_btn{
+    width:100%;
+    max-width:640px;
+    padding:7px 0;
+    background-color:#f7f7f7;
+    height:50px;
+    line-height:36px;
+    border-top:1px solid #ccc;
+}
+#control_btn_inner_left,#control_btn_inner_right,#control_btn_inner_right_cp{
+    top:0;
+}
+#control_btn_inner_left{
+    width:34%;
+    left:6px;
+}
+#control_btn_inner_right,#control_btn_inner_right_cp{
+    width:62%;
+    right:6px;
+}
+
+#my_wd_userinfo,#my_cart{
+    top:0;
+    width:50%;
+    height:40px;
+    line-height:64px;
+    background-image:url(http://s.koudai.com/images/item/item_fix_btn_icon.png?v=2015051400108);
+    background-repeat:no-repeat;
+    background-size:20px;
+    font-size:12px
+}
+#my_wd_userinfo{
+    left:0;
+    background-position:center 0;
+}
+#my_cart{
+    right:0;
+    background-position:center -40px;
+    color:#323333
+}
+#add_cart,#buy_now,#control_bottom_submit{
+    width:48%;
+    height:36px;
+    line-height:36px;
+    color:#fff;
+    border-radius:4px;
+    top:0;
+    font-size:15px;
+}
+
+#sellerOut{ top:0px; width: 100%; height: 40px; line-height: 40px; border-radius: 4px;  font-size: 15px; color: #5d5d5d; font-weight: bold;   background: #e8e8e8}
+#control_bottom_submit{
+    display:none
+}
+#add_cart{
+    left:0;
+    background-color:#e8e8e8;
+    color:#d93229
+}
+#buy_now,#control_bottom_submit{
+    right:0;
+}
+#item_control{
+    bottom:50px;
+}
+#item_control_inner{
+    max-width:640px;
+}
+#control_item_info,#control_bottom_btn{
+    background-color:#f1f1f1
+}
+#control_item_info{
+    height:50px;
+    line-height:50px;
+    padding:15px 15px 15px 80px;
+}
+#control_item_info_img{
+    top:15px;
+    left:15px;
+}
+#control_item_info_price{
+    padding:0;
+    font-size:20px;
+}
+#control_item_info_close{
+    width:25px;
+    height:25px;
+    top:10px;
+    right:15px;
+}
+#control_item_info_close:before,#control_item_info_close:after{
+    content:"";
+    width:1px;
+    height:15px;
+    background-color:#5d5d5d;
+    position:absolute;
+    top:5px;
+    left:12px;
+}
+#control_item_info_close:before{
+    -webkit-transform:rotate(45deg);
+       -moz-transform:rotate(45deg);
+        -ms-transform:rotate(45deg);
+         -o-transform:rotate(45deg);
+            transform:rotate(45deg);
+}
+#control_item_info_close:after{
+    -webkit-transform:rotate(-45deg);
+       -moz-transform:rotate(-45deg);
+        -ms-transform:rotate(-45deg);
+         -o-transform:rotate(-45deg);
+            transform:rotate(-45deg);
+}
+#control_bottom_btn{
+}
+
+
+#enter_im_div{
+    bottom:96px;
+}
+.comingsoon{
+    background-color:#5d5d5d !important
+}
+
+#hd_enterShop,#hd_enterShop_none{
+    top:0;
+    right:0;
+    padding-right:15px;
+    padding-left:40px;
+    font-size:13px;
+}
+#hd_enterShop_img,#hd_enterShop_none_img{
+    width:32px;
+    height:32px;
+    overflow:hidden;
+    top:6px;
+    left:0;
+}
+#hd_enterShop_img,#hd_enterShop_none_img,#hd_enterShop_img img,#hd_enterShop_none_img img{
+    border-radius:16px;
+}
+#weidianbuyer{
+    display:none
+}
+
+#free_delivery{
+    color:#454544;
+    font-size:16px;
+    margin-top:5px;
+}
+#free_delivery_em{
+    top:9px;
+    left:40px;
+    font-size:12px;
+    color:#919191
+}
+#free_delivery_em:after{
+    right:-10px;
+    top:6px;
+    border-right-color:#919191;
+    border-bottom-color:#919191
+}
+/*comment by abel 2015-01-19*/
+
+#comment{ background: #fff; overflow: auto; margin-top:8px;}
+#comment h2{ height: 50px; line-height: 50px; font-size: 14px; padding: 0px 20px; border-bottom: 1px solid #e3e3e3}
+#comment h2 span{ float: left;}
+#comment h2 span.scoreNumber{ float: right;}
+#comment h2 a{ float: left; display: block; padding-right:10px;width: 100px; background: url(http://s.koudai.com/images/common/ranknum.png?v=2015051400108) left top no-repeat; background-size: 100px;  height: 20px; margin-top: 13px;}
+#comment h2 a em{float: left; display: block; width: 80px; background: url(http://s.koudai.com/images/common/ranknum.png?v=2015051400108) left -20px no-repeat; background-size: 100px;  height: 20px; }
+#comment ul{ padding: 0px 20px;}
+#comment li{ padding:10px 0px;border-bottom: 1px solid #e3e3e3}
+#comment li.bordernone{ border: none}
+#comment li p{ line-height: 30px; color: #707070}
+#comment li p.txt{ line-height: 20px; color: #323232;word-break:break-all}
+#comment li p a{ padding: 0px 50px; background: url(http://s.koudai.com/images/common/ranknum.png?v=2015051400108) left -1px no-repeat; background-size: 80px;  margin-left: 10px; position: relative; top:-1px; }
+#comment li p a em{ background: url(http://s.koudai.com/images/common/ranknum.png?v=2015051400108) left -17px no-repeat; background-size: 80px;  position: absolute; top: 0px; left: 0px; display: block; width: 30px; height: 20px; }
+
+#moreContent{ height: 45px; line-height: 45px; text-align: center;border-top: 1px solid #e3e3e3; display: block;}
+#my_wd_userinfo_em,#my_cart_em{
+    top:-4px;
+    right:8px;
+}
+
+#item_recommend_wrap,#detail_wrap{
+    background-color:#fff;
+}
+/*图文混排*/
+.img_des{
+    padding:10px 12px 30px;
+    word-break:break-all
+}
+
+#count{ border-left: #b61426 solid 4px; height: 20px; line-height: 20px; margin-top: 15px; padding-left: 6px;}
+
+
+#hd_bg_item{width:100%;height: 26px;bottom:0px;left:0;background: rgba(0,0,0,0.5);}
+
+/*商品点赞*/
+.userimgList{ overflow: auto; margin-top: 10px; margin-left: -3px;margin-bottom: -7px;}
+.praiseHasMore{max-height: 82px;overflow: hidden;}
+
+.userimgList em{ float: left; margin: 3px; width: 35px; height: 35px;}
+
+.userimgList em img { width: 100%;}
+
+.praiseBtn{ padding: 8px 18px; background: url(http://s.koudai.com/images/item/praiseBtn.png?v=2015051400108) no-repeat; background-size: 16px; background-position: 14px 6px; padding-left: 37px; color: #666; font-size: 14px; background-color: #e8eaea; border-radius: 2px;}
+
+.praisedBtn{
+    background-position: 14px -48px;
+}
+
+.praiseMore{-webkit-transform: rotate(45deg);transform:rotate(45deg);width:9px;
+    height:9px;border-bottom:2px solid #717171;border-right:2px solid #717171;border-radius:1px; display: block; margin:0 auto; margin-top: 7px;}
+
+.praiseEllipsis {
+    text-align: center;
+    background-color: #e8eaea;
+    color: #666;
+    line-height: 32px;
+}
+#item_recommend_wrap .i_wrap{ background: #fff; padding-top: 50px; }
+#item_recommend_wrap .i_wrap h3{ top:10px;}
+#item_recommend ul.i_ul { padding-left: 22px; overflow: auto; margin-bottom: 10px;}
+.recomdmend{ float: left; width: 33.333%; position: relative; margin-bottom: 8px;}
+.recomdmend a{ padding: 3px; display: block;}
+.recomdmend a span{  padding-top: 5px; display: block; font-size:12px;/*position: absolute; right: 3px; bottom: 3px; background: rgba(0,0,0,0.5); color: #fff; padding: 0px 3px; font-size: 12px;*/}
+.recomdmend a span.recomdmendImg{ display: block; min-height: 60px;}
+.recomdmend img{width: 100%; display: block;}
+#control_btn_inner_left {
+    text-align: center;
+}
+#control_btn_inner_left .contact, #control_btn_inner_left .store {
+    width: 50%;
+    margin-top: -8px;
+}
+
+.btn_select_sku{
+    display: block;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.select_sku_pro_info{
+    padding: 0 10px;
+}
+
+.select_sku_item{
+    padding: 0 10px;
+}
+
+.select_sku_num{
+    padding: 0 10px;
+}
+.sku_img{
+    margin-right: 10px;
+}
+
+.sku_pro_tit{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.select_sku_price{
+    font-size: 20px;
+    font-weight: bold;
+    color: #c60a1e;
+    margin-top: 5px;
+}
+
+.sku_num_sel{
+    width: 130px;
+    float: right;
+}
+
+.sku_item_tit{
+    font-size: 14px;
+    font-weight: bold;
+}
+.sku_num_tit{
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sku_stock{
+    float: right;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.sku_item_list a{
+    margin-right:5px;
+    margin-bottom:5px;
+}
+
+.sku_btn li{
+    padding: 0 10px;
+}

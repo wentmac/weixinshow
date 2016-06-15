@@ -1,0 +1,70 @@
+#order_delivery_list{
+	max-height:700px;
+	width: 1000px;
+	overflow: auto;	
+	left:25%;
+}
+.div_delivery_list {
+	position: absolute;
+	z-index: 100;
+	background-color: #efefef;
+	left:50%;
+	top: 139px;
+	width: 600px;	
+	margin-left: -300px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.div_delivery_list p{height: 40px;line-height: 40px; background-color: #fff;  margin: 5px 0;}
+.div_delivery_list p a{ width: 50%; margin: 0 auto; display: block;float: left; text-align: center; border: 1px solid #ededed;}
+#div_delivery_list input {
+	border: 1px solid #ccc;
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	border-radius: 3px;
+}
+.delivery_list li {
+	height: 36px;
+	line-height: 36px;
+	padding-left: 10px;
+	cursor: pointer;
+	border-bottom: 1px solid #ddd;
+}
+.delivery_list li span{
+	float:right;
+}
+.div_express ul li {
+	height: 34px;
+	line-height: 34px;
+	cursor: pointer;
+}
+.date {
+	width: 100px;
+	color: blue;
+	display: block;
+	float: left;
+}
+.week {
+	width: 100px;
+	color: orange;
+	display: block;
+	float: left;
+}
+.time {
+	width: 100px;
+	color: red;
+	display: block;
+	float: left;
+}
+h2{
+	height: 40px;
+	line-height:40px;
+	background-color:#0c79b1;
+	color: #fff;
+	text-align: center;
+}
+.red{color:#900;}
+.close{float: right; margin-right: 20px; color:#fff; cursor: pointer;}
+.close:hover{float: right; margin-right: 20px; color:#efefef; cursor: pointer;}
+

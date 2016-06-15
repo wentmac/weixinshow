@@ -1,0 +1,223 @@
+@import url("table_input.css");  /* table中input无边框
+
+/*图片上传块*/
+.imageupload .controls {
+  margin-left: 0px;
+  word-break: break-all;
+  *margin-left: 0;
+  *padding-left: 10px;
+}
+
+.imageupload .form-actions {
+  padding: 0 0 0 130px;
+  margin: 25px 0 10px 0;
+  background: none;
+  border: none;
+}
+
+.imageupload .form-actions.the-new {
+  padding: 10px 10px 10px 130px;
+  border-top: 1px solid #ccc;
+  background-color: #fffedc;
+  margin: 0;
+}
+
+.imageupload .btn,
+.imageupload .btn-mini {
+  font-size: 12px;
+}
+
+.imageupload .btn-large {
+  font-size: 14px;
+}
+
+.imageupload em.required {
+  font-size: 16px;
+  color: #f00;
+  vertical-align: middle;
+}
+
+.imageupload .help-block,
+.imageupload .help-desc {
+  opacity: 0.6;
+  line-height: 14px;
+  font-size: 12px;
+  margin-top: 6px;
+  margin-bottom: 0;
+  clear: both
+}
+
+.imageupload .help-block ul li,
+.imageupload .help-desc ul li {
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.imageupload .help-block:empty,
+.imageupload .help-desc:empty {
+  margin-top: 0px !important;
+}
+
+.imageupload .static-value {
+  padding-top: 5px;
+  font-size: 14px;
+  line-height: 18px;
+  padding-bottom: 5px;
+  word-break: break-all;
+}
+
+.imageupload .control-action {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.upload-local-img {
+  border-bottom: none;
+}
+
+.upload-local-img .preview-container {
+  margin-top: 0;
+  width: auto;
+  max-height: none;
+}
+
+.upload-local-img .preview-container img {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 0 9px 10px 0;
+}
+
+input.get-web-img-input {
+  margin-right: 20px;
+  font-size: 12px;
+}
+
+.upload-image-list li {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.upload-preview-img {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  border: 1px solid #CCC;
+  padding: 1px;
+  position: relative;
+}
+
+.upload-preview-img img {
+  max-height: 100%;
+  margin: auto;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.upload-preview-img .close-modal {
+  position: absolute;
+  z-index: 91;
+  top: -9px;
+  right: -9px;
+  width: 20px;
+  height: 20px;
+  font-size: 16px;
+  line-height: 18px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  background: rgba(153, 153, 153, 0.6);
+  border-radius: 10px;
+}
+
+.upload-preview-img .close-modal:hover {
+  color: #fff;
+  background: #000000;
+}
+
+.upload-preview-img .close-modal.small {
+  top: -8px;
+  right: -8px;
+  width: 18px;
+  height: 18px;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 9px;
+}
+
+.fileinput-button {
+  position: relative;
+  overflow: hidden;
+  width: 80px;
+  height: 80px;
+  border: 2px dashed #CCC;
+  background: none;
+  padding: 0;
+}
+
+.fileinput-button .fileinput-button-icon {
+  display: block;
+  font-size: 40px;
+  font-weight: bold;
+  color: #CCC;
+  height: 80px;
+  line-height: 80px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.fileinput-button .fileinput-button-icon a input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  font-size: 23px;
+  direction: ltr;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+}
+
+.upload-retry {
+  background: none repeat scroll 0 0 #ff0000;
+  float: left;
+  height: 20px;
+  left: 1px;
+  position: absolute;
+  top: 60px;
+  width: 80px;
+  z-index: 91;
+  color: #fff;
+}
+
+.uploadify-progress-all {
+  float: left;
+  background-color: #E5E5E5;
+  margin-top: 0px;
+  width: 100%;
+}
+
+.uploadify-progress {
+  background-color: #E5E5E5;
+  margin-top: 70px;
+  width: 100%;
+}
+
+.uploadify-progress-bar {
+  background-color: #6DB607;
+  height: 10px;
+  width: 1px;
+}

@@ -1,0 +1,347 @@
+.cart_p8{background-image:url(http://s.koudai.com/images/cart/png_8.png?v=2015032402);background-size:50px}.cart_sec{padding:10px 10px 0}.cart_wrap{box-shadow:0 1px 2px 2px #e4e4e4;overflow:hidden}.cart_list_title{padding-bottom:10px;height:25px;line-height:25px;text-indent:10px}.cart_ul,#cart_ul_dis{padding:0 10px;background-color:#fff;font-size:12px}
+.cart_li,.cart_li_dis,#cart_loading,#cart_empty,#address_loading,#del_all_wrap{height:85px;padding:15px 0;border-top:1px solid #e3e3e3;top:-1px}#cart_empty{text-align:center;line-height:75px;font-size:16px}
+.cart_img,.cart_img_dis{width:50px;height:50px;padding:2px;left:35px;top:15px}.cart_img_dis{left:0}
+.cart_tle,.cart_tle_dis{height:36px; color:#101010;line-height:18px;display:block;margin-left:100px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;text-overflow:ellipsis;font-size:14px}
+.cart_tle_dis,.cart_des_dis{margin-left:85px}.del_dis_item{right:10px;bottom:10px}#del_all_wrap{height:30px;line-height:30px}#del_all_dis_item{padding:0 5px;border:1px solid #ccc;background-color:#eee;border-radius:5px}.cart_cls{padding-left:100px;color:#999}.control_count{padding-left:37px;height:26px;line-height:26px}
+.i_pri{font-size:14px}
+.i_nopri{ font-size: 12px; text-decoration: line-through; font-size: 12px; padding-right: 6px; color: #919191}
+.control_sub,.control_add,.control_stock{height:24px;line-height:24px}
+.control_sub,.control_add{width:24px;font-size:20px;cursor:pointer;border-top:1px solid #e3e3e3;border-bottom:1px solid #e3e3e3;background:#eeefee;background:-webkit-gradient(linear,center top,center bottom,from(#fff),to(#eeefee))}
+.control_sub{border-left:1px solid #e3e3e3}
+.control_add{border-right:1px solid #e3e3e3}
+.control_num{width:50px;padding:0 30px}
+
+#address_form{border-top:1px solid #e3e3e3}.address_p{padding-top:5px;padding-right:10px;padding-bottom:5px;padding-left:80px}.address_p_area{padding-right:22px}.address_p>label{top:10px;left:10px}.input{width:100%;height:30px;line-height:30px;border:1px solid #d9d9d9;text-indent:6px;font-size:14px}#detail_add,#remark{text-indent:0;height:40px;padding-left:6px;padding-right:6px;line-height:20px}#address_wrap{padding-bottom:10px}#address_sec{padding-bottom:10px}
+#cart_footer{display:block;line-height:40px;background-color:#fdfbfb;position:relative;margin:0 10px 10px; overflow: auto; padding:10px; border-radius: 4px;}
+#money_calc{width:100%; border-bottom: #ccc solid 1px;line-height:40px; height:40px}
+#money_count,.money_count{font-size:16px}
+#go_cash,#disable_gocash{width:100%;color:#fff; margin-top: 10px; }
+#disable_gocash{height:40px; bottom:0;right:0;z-index:10;background-color:#ccc !important}
+.cart_mask,#cart_fix_footer_selectAll_mark,.cart_seller_mask{width:18px;height:18px;left:6px;top:45px;background-color:#e5e5e5;border-radius:9px}
+.cart_mask:after,#cart_fix_footer_selectAll_mark:after,.cart_seller_mask:after{
+    content:""; width:6px; height:10px; border-right:1px solid #fff; border-bottom:1px solid #fff; top:1px; left:6px; position:absolute; 
+    display:none;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg)
+}
+.already_mask,.cart_fix_footer_selectAll_already_mark,.cart_seller_mask_already{background-color:#c60a1e !important}
+.already_mask:after,.cart_fix_footer_selectAll_already_mark:after,.cart_seller_mask_already:after{display:block !important}
+#cart_fix_footer_selectAll_mark{
+    top:0;
+    left:0;
+    vertical-align:middle;
+    margin-right:4px;
+}
+.cart_seller_mask{
+    top:16px;
+    left:16px;
+    z-index:1
+}
+.cart_seller_title{
+    padding:0 30px 0 48px;
+    height:50px;
+    line-height:50px;
+    background-color:#fff;
+}
+.cart_seller_title:after{
+    content:"";
+    width:7px;
+    height:7px;
+    border-right:1px solid #5d5d5d;
+    border-bottom:1px solid #5d5d5d;
+    top:21px;
+    right:20px;
+    position:absolute;
+    -webkit-transform:rotate(-45deg);
+       -moz-transform:rotate(-45deg);
+        -ms-transform:rotate(-45deg);
+         -o-transform:rotate(-45deg);
+            transform:rotate(-45deg);
+}
+
+
+.item_num{
+    width:48px;
+    height:24px;
+    line-height:24px;
+    font-size:14px;
+    color:#000;
+    border:1px solid #939393
+}
+.control_num_sub,.control_num_add{
+    width:30px;
+    height:26px;
+    line-height:26px;
+    top:0;
+    color:#d93229;
+    font-family:serif;
+    font-size:26px;
+}
+.control_num_sub{
+    left:0;
+}
+.control_num_add{
+    right:0;
+}
+
+#hack_input{
+    height:45px;
+    width:100%;
+    line-height:45px;
+    background-color:#fff;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1000000000000;
+}
+.adressinfo{ display: block; margin: 10px; padding:10px 30px 10px 10px; background:#fff url(http://s.koudai.com/images/cart/orderright.png?v=2015032402) 95% 40% no-repeat;}
+.adressinfo span{ padding-right: 20px;}
+#captchaSpan{
+    height:30px;
+    line-height:30px;
+    vertical-align:top;
+}
+#captchaSpan img{ width: 70px; height: 29px}
+
+
+#userLogin .cart_wrap{ padding:5px 10px;}
+#userLogin p{ height: 30px; line-height: 30px; color: #666; font-size: 12px;}
+#userLogin p.esp{ height: 35px; line-height: 35px; border-bottom: #ccc solid 1px;font-size: 14px;}
+#changeUser{ float: right; border: #5f646e solid 1px; border-radius: 4px; width: 62px; display: block; height: 24px; line-height: 24px; text-align: center; color: #5f646e; font-size: 12px; margin-top: 3px;}
+#userTel{ float: left; color: #333333}
+#userTel em{ color: #c60a1e;}
+
+#mycart_money,.mycart_money{
+    color: #707070;
+    background-color:#fff
+}
+#mycart_user{
+    padding:10px 10px 0;
+}
+.mycart_tle{
+    height:45px;
+    line-height:45px;
+    background-color:#fafbfc;
+    text-indent:15px;
+    color:#717070
+}
+.mycart_user_content{
+    padding:5px 15px 10px;
+    background-color:#fff;
+}
+.mycart_user_content p{
+    line-height:26px;
+    margin:10px 0;
+}
+.btncancel{
+    margin-top:20px;
+}
+#tel_notice,#cart_fix_footer_notice,.cart_fix_footer_notice{
+    color:#919191;
+    font-size:12px;
+    margin:0 0 5px
+}
+.mycart_input_p{
+    padding-left:64px;
+}
+.mycart_input_p label{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.mycart_input_p input,.mycart_input_p select{
+    width:100%;
+    height:24px !important;
+    line-height:24px !important;
+    border-bottom: #e3e3e3 solid 1px !important;
+    font-size:14px !important;
+    text-indent:10px !important;
+    border-radius:0 !important;
+    background-color:#fff !important
+}
+
+#cart_fix_footer,.single_cart_seller_footer,.isBuyNowOrMico .cart_fix_footer{/*购物车就一个店铺 或者 立即购买 微信收款 就都一样浮在下边*/
+    width:100%;
+    position:fixed;
+    bottom:0;
+    left:0;
+    z-index:10;
+    height:89px;
+}
+#cart_fix_footer_wrap,.cart_fix_footer_wrap{
+    max-width:640px;
+    height:89px;
+    background-color:#fff;
+    border-top:1px solid #e8e8e8
+}
+#cart_fix_footer_inner,.cart_fix_footer_inner{
+    padding-left:80px;
+    height:56px;
+}
+.cart_fix_footer_inner{/*上边的没用了*/
+    height:40px !important;
+    padding:8px 10px !important;
+}
+.cart_seller_wrap{
+    margin-bottom:10px;
+}
+#cart_fix_footer_selectAll{
+    width:80px;
+    height:100%;
+    line-height:56px;
+    top:0;
+    left:0;
+    border-right:1px solid #e2e2e2;
+}
+#cart_fix_footer_content{
+    height:40px;
+    line-height:20px;
+    padding:8px 10px;
+}
+#do_buy,.do_buy{
+    height:40px;
+    line-height:40px;
+    padding:0 15px;
+    margin-left:10px;
+}
+#cart_fix_footer_notice,.cart_fix_footer_notice{
+    margin:0
+}
+#user_content_isLogin{
+    height:44px;
+    padding:15px;
+    background-color:#fff;
+    font-size:16px
+}
+#use_other_tele{
+    width:30px;
+    height:36px;
+    display:block;
+    line-height:18px;
+    border-left:1px solid #e2e2e2;
+    color:#cd3329;
+    padding:4px 0 4px 15px;
+    font-size:14px;
+}
+#mycart_wrap{
+    padding-bottom:10px
+}
+#cart_fix_footer_money,.cart_fix_footer_money{
+    padding:8px 10px;
+    height:16px;
+    line-height:16px;
+    border-bottom:1px solid #e8e8e8
+}
+.disable_edit #cart_del_a,.disable_edit #cart_del_b{
+    border-color:#ccc !important;
+}
+#cart_del_a,#cart_del_b{
+    border-color:#696a6c;
+    border-style:solid;
+}
+#cart_del_a:before,#cart_del_a:after,#cart_del_b:before{
+    content:"";
+    position:absolute;
+    border-style:inherit;
+    border-color:inherit
+}
+#cart_del_a{
+    width:5px;
+    height:1px;
+    border-width:1px;
+    top:7px;
+    left:22px
+}
+#cart_del_a:before{
+    width:19px;
+    height:1px;
+    border-width:1px 0 0 0;
+    top:1px;
+    left:-7px;
+}
+#cart_del_a:after{
+    width:13px;
+    height:13px;
+    border-width:1px;
+    top:1px;
+    left:-5px;
+}
+#cart_del_b{
+    width:1px;
+    height:8px;
+    border-width:0 1px 0 0;
+    top:13px;
+    left:24px;
+}
+#cart_del_b:before{
+    width:7px;
+    height:7px;
+    border-width:0 1px 0 1px;
+    top:1px;
+    left:-3px;
+}
+/*立即购买或微信收款左移*/
+.isBuyNowOrMico .control_count{
+    padding-left:0 !important
+}
+.isBuyNowOrMico .cart_cls{
+    padding-left:63px !important
+}
+.isBuyNowOrMico .cart_tle{
+    margin-left:63px !important
+}
+.isBuyNowOrMico .cart_img{
+    left:-2px !important
+}
+.isBuyNowOrMico .cart_seller_title{
+    padding-left:10px !important
+}
+.isBuyNowOrMico .cart_seller_mask_already{
+    display:none !important
+}
+
+#iWantWeixinMoney{
+    display:block;
+    height:44px;
+    line-height:44px;
+    color:#d93229;
+    margin:20px 10px 10px;
+    background-color:#fff;
+    border-radius:2px;
+    /*
+    width:70%;
+    margin:20px auto 10px;
+    height:30px;
+    line-height:30px;
+    color:#ff5000;
+    border:1px solid #ccc;
+    display:block;
+    text-align:center
+    */
+}
+#iWantAShopEm{
+    margin-left:65px
+}
+
+
+#speak_code{
+    margin-right:15px;
+}
+#forgot_pwd,#resend_tel_code{
+    color:#cd3329
+}
+#cart_notice{
+    padding:0 0 10px 15px
+}
+/*qq登录和微博登录*/
+#weiboLogin {
+	background: url(../../image/fast_login/weibo_logo_16x16.png) no-repeat left;
+}
+#qqLogin {
+	background: url(../../image/fast_login/qq_logo_16x16.png) no-repeat left;
+  height: 2.5rem;
+  line-height: 2.8rem;   
+}

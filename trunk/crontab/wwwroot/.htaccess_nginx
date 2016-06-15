@@ -1,0 +1,25 @@
+#nginx rewrite
+error_page	404	 /index.php?m=error;
+location ~ .*\.tpl$ {
+	deny all;
+}
+
+if ($http_user_agent ~ "(vnd.wap)|(iphone)|(Android)|(android)|(wap)|(iPhone)|(iPod)|(android)|(symbian)|(Nokia)|(UCWEB)"  )
+{
+	#rewrite ^/(.*)$  http://m.090.cn/$1 permanent;        
+}
+	
+# Allow any files or directories that exist to be displayed directly
+#判断是否存在文件或目录 如果存在文件或目录的时候break;出来
+if (!-e $request_filename) {    
+	rewrite ^/index.html$                       /index.php last;        
+	
+	rewrite ^/(account)/(\w+)/?$                      /index.php?m=$1.$2&$query_string break;
+	rewrite ^/(order|member|others|oauth)/(\w+)/?$    /index.php?m=$1.$2&$query_string break;
+	rewrite ^/(pay)/([a-zA-Z\.]+)/?$                  /index.php?m=$1/$2&$query_string break;	
+	rewrite ^/(pay)/([a-zA-Z\.]+)/(\d+)$              /index.php?m=$1/$2&order_refund_id=$3&$query_string break;
+	
+	rewrite ^/(item)-([0-9]+).html$			 		  /index.php?m=$1&id=$2 break;
+	rewrite ^/(club|contact|about|supplier|classroom)/?$			 		  /index.php?m=index.$1 break;
+	rewrite ^/(da)/(\w+).html$			 		  	  /index.php?m=$1.$2&$query_string break;
+}

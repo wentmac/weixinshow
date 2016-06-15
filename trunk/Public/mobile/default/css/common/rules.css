@@ -1,0 +1,6 @@
+#rules_sec{padding:10px}#rules_sec>h2{font-size:16px;font-weight:bold;line-height:40px}#rules_sec>p,#rules_sec>ol{text-indent:2em}#rules_sec>ol{padding-bottom:20px}li{list-style:decimal inside}li>ol{text-indent:4em}li li{list-style:lower-latin inside}
+ul.three-li {
+    padding: 0 5px;
+    color: #777777;
+}
+#rules_sec p.txt{ text-indent: 0em; padding: 10px 0px;}

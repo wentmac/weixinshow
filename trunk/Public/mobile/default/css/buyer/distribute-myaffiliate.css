@@ -1,0 +1,30 @@
+body { padding-bottom: 50px; }
+
+.affiliate-list { position: relative; padding: 0; }
+.affiliate-list:after { display: block; content: ''; position: absolute; left: 50%; top: 0; bottom: 0; width: 4px; 
+margin-left: -2px; background: #e0e0e0; }
+.affiliate-list label.affiliate-level { display: inline-block; background: #999; color: #fff; padding: 0 8px; border-radius: 8px; 
+margin-bottom: 10px;  position: relative; z-index: 100; }
+
+.affiliate-list .well { background: rgba(255, 255, 255, 0.8); -webkit-box-shadow: none; box-shadow: none; position: relative; z-index: 100; 
+padding-top: 8px; padding-bottom: 8px; margin-bottom: 12px; }
+.affiliate-list .user-well { background: #fff; }
+.affiliate-list .user-well img { width: 100px; height: 100px; border-radius: 50%; }
+.affiliate-list .media-body .media-heading { font-size: 14px; font-weight: 500; display: block; max-width: 8em; color: #337ab7; }
+.affiliate-list .media { margin: 0; }
+.affiliate-list .media-left a { display: block; width: 60px; height: 60px; border-radius: 30px; border: 2px solid #fff; overflow: hidden; }
+.affiliate-list .media-left .media-object { width: 60px; height: 60px;  }
+.affiliate-list .media-body p { font-size: 12px; margin: 0; }
+.affiliate-list .media-right a { font-size: 12px; color: #ccc; }
+.affiliate-list .media-right a:hover,.userlist-container .media-right a:active,
+.affiliate-list .media-right a:focus { color: #337ab7; }
+
+.affiliate-list .subscribe-p { margin-bottom: 5px !important; }
+.affiliate-list .subscribe-label { font-size: 11px !important; font-weight: normal !important; padding: 1px 4px; }
+.affiliate-list .subscribe-label.label-default { background: #aaa; }
+.affiliate-list .sex-label { font-size: 11px !important; font-weight: normal !important; padding: 1px 4px; }
+.label-man { background: #0089e1; line-height: normal; }
+.label-woman { background: #f02f72; line-height: normal; }
+.label-genderless { line-height: normal; background: #aaa; }
+
+.page-operate { position: fixed; z-index: 1000; left: 0; bottom: 0; right: 0; padding: 5px 0; background: #eee; border-top: 1px solid #d0d0d0; }

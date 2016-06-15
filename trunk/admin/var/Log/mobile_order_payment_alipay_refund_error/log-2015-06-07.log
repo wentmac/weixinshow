@@ -1,0 +1,8 @@
+
+[2015-06-07 15:34:28]  --> refund_notify_(退款支付宝返回失败):array (
+)array (
+  'order_goods_id' => '123',
+  'TMAC_CONTROLLER_FILE' => 'pay/alipay',
+  'TMAC_CONTROLLER' => 'alipay',
+  'TMAC_ACTION' => 'autoRefund',
+)

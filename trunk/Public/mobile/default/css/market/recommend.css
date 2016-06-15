@@ -1,0 +1,8 @@
+.am-btn-danger{
+	 background-color: #f02b22;
+}
+.slider{display:none}/*用于获取更加体验*/
+.focus span{width:10px;height:10px;margin-right:10px;border-radius:50%;background:#fff;font-size:0}
+.focus span.current{background:#F02B22}
+p{margin:0.2rem auto ;}
+

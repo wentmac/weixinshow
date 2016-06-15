@@ -1,0 +1,8 @@
+/*######################*/
+.am-table tr td input.invisible_input {
+  border: none;
+}
+
+.am-table tr td.input_td {
+  padding: 0;
+}

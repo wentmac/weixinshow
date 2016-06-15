@@ -1,0 +1,15 @@
+.unshow { display: none; }
+.choose_frame { width: 370px;}
+.choose_frame .list_head { height: 27px; background:url(control_tit_bg.gif) 0 0 repeat-x;}
+.choose_frame .list_head .fleft li { float: left; line-height: 27px; height: 27px; width: 74px; text-align: center; cursor: pointer;}
+.choose_frame .list_head .fcenter { padding:0 0 0 10px; line-height:27px; color:#a08366;}
+.choose_frame .list_head .fright { float:right; margin:5px 8px 0 0; }
+.city_sugg { padding:5px 0 5px 0; overflow:auto; zoom:1; line-height:2;}
+.city_sugg li { float: left; padding-left: 10px; white-space: nowrap; }
+.more_city { float: right; padding-right: 12px; padding-bottom: 5px; }
+.search_li01 { border-right:1px solid #cdc6bf; }
+.search_li02 { background: url(control_tit_bg1.gif) 0 0 repeat-x; font-weight: bold; border-right:1px solid #cdc6bf; }
+.city_list2 { height: 24px; padding:5px 0 0 5px; border-bottom: #d7d7d7 1px dashed; }
+.city_list2 li {float: left; padding-left:1px; font-size:14px; font-family:Arial; }
+.city_list2 li a { display:block; padding:0 3px;}
+.city_list2 a:hover { color: #fff; background:#f60; }

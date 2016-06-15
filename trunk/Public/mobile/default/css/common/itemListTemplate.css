@@ -1,0 +1,188 @@
+.i_wrap{width:100%;padding-top:40px;overflow:hidden}
+.i_ul{display:block;padding:0 0 0 14px;left:-10px}
+.i_title,#frd_tle{
+    width:100%;line-height:18px;font-size:15px;color:#323232;top:0;left:0;z-index:2}
+/* title sign */
+#index_sec .i_title:before,#frd_tle:before,#item_recommend .i_title:before{
+    content: "";
+    width: 4px;
+    height: 15px;
+    vertical-align: text-bottom;
+    background-color: #b61426;
+    position: absolute;
+    top: 16px;
+    left: 17px;
+}
+.i_title_p{
+    text-indent:12px;
+    padding:15px 0;
+    margin:0 17px;
+}
+#top_i_title_p,#friend_i_title_p,#hot_title{
+    border-top:none;
+}
+
+.i_li{width:50%;position:relative;margin-bottom:6px; border-left:6px solid transparent;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+.i_li a{display:block; padding:7px;background-color:#fff;position:relative}
+.i_li img{display:block; width:100%}
+.i_li_img_div{top:0;left:0;z-index:1;}
+.i_li_img_div_inner{padding:7px; overflow: hidden; }
+.i_a{display:block}
+.i_txt{font-size:14px;color:#323232;height:36px;line-height:18px;margin:10px 0 6px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical; padding: 0 6px;word-break:break-all}
+.i_pri_wrap{
+    height:22px;
+    overflow:hidden;
+}
+.i_pri,.i_pri_discount{overflow:hidden;text-overflow:ellipsis; padding: 0px 6px;display:inline-block;max-width:100%}
+.i_pri_discount{
+    color:#858585;
+    text-decoration:line-through;
+    font-size:12px
+}
+.i_title_p_no_border{
+    border-top:none
+}
+
+/* 分销列表 */
+#fxShop {
+    border-radius: 0;
+    margin:20px;
+    display: none;
+}
+.i_li a.agent {
+    display: block;
+    text-align: center;
+    color: white;
+    background: #c60a1e;
+    line-height: 40px;
+    padding:0;
+    margin-bottom:20px;
+}
+.i_li span.agented {
+    display: block;
+    text-align: center;
+    color: #d93229;
+    background: #dcdbdb;
+    line-height: 40px;
+    padding:0;
+    margin-bottom:20px;
+}
+
+.i_pri_fx {
+    font-size:12px;
+    color:#ccc;
+}
+.i_pri_fx_p {
+    font-size: 16px;
+    color: #d93229;
+}
+
+/*#index_sec,#item_recommend_wrap,#favo_wrap,#search-content,#item_classes_list_wrap,#search_result_list_wrap,#item_ul_wrap,#market_item_wrap{
+  
+}*/
+#index_sec{
+    background-color: transparent
+}
+
+#search_result_list_wrap .i_list_bottom{
+     bottom: -20px;
+}
+#plaza_search_i_wrap,#favproduct{
+    padding-top:0
+}
+
+
+/*ui 改版 待整理 by shaoyuan*/
+.i_wrap {
+    background-color: white;
+    margin-top: 8px;
+    padding-top: 44px;  background: #fff
+}
+.i_ul {
+    margin: 5px 17px 0 17px;
+    overflow: hidden;
+    left: 0;
+    padding: 0;
+}
+.i_li:nth-child(even) {
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #fff;
+    border-left: none;
+    padding: 10px 0 18px 10px;
+}
+.i_li:nth-child(odd) {
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    border-left: none;
+    padding: 10px 10px 18px 0;
+}
+.i_li:nth-child(1), .i_li:nth-child(2) {
+    padding-top: 0;
+}
+.i_li {
+    margin-bottom: 0;
+}
+.i_li a {
+    padding: 0;
+}
+.i_li_img_div_inner {
+    background-color: white;
+    padding: 0;
+}
+/*.i_li_discount {
+    right: 0;
+    bottom: 79px;
+}*/
+
+
+.i_li_soldOut{
+    background-color: #d67941;
+    padding: 3px 5px;
+    opacity: 0.8;
+}
+
+.i_li_discount{
+    background-color: #c60a1e;
+    padding: 3px 5px;
+    opacity: 0.8;
+}
+
+.i_li_bottom{
+    font-size:12px;
+    bottom:79px;
+    right:0px;
+    z-index:2;
+    height:20px;
+    line-height:20px;
+    font-size:12px;
+    color:#fff;
+}
+
+
+.i_txt {
+    margin-top: 15px;
+}
+.i_list_bottom {
+    position: absolute;
+    height: 22px;
+    border: 0;
+    background: white;
+    bottom: 0;
+    width: 100%;
+}
+.index_nav {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    z-index: 100;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+.index_nav .classify, .index_nav .dynamic, .index_nav .contact, .index_nav .store, .index_nav .footer_cart,.index_nav .footer_order, .store {
+    width: 33.33%;
+    height: 20px;
+}

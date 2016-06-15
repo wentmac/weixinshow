@@ -1,0 +1,36 @@
+
+[2015-05-27 16:39:35]  --> array (
+  'out_trade_no' => '51',
+  'request_token' => 'requestToken',
+  'result' => 'success',
+  'trade_no' => '2015052700001000570066730171',
+  'sign' => 'e31a6bd42db07cf77e8643618fa5a924',
+  'sign_type' => 'MD5',
+  'TMAC_CONTROLLER_FILE' => 'pay/alipay',
+  'TMAC_CONTROLLER' => 'alipay',
+  'TMAC_ACTION' => 'returnurl',
+)
+[2015-05-27 16:39:43]  --> array (
+)
+[2015-05-27 16:39:47]  --> array (
+  'out_trade_no' => '51',
+  'request_token' => 'requestToken',
+  'result' => 'success',
+  'trade_no' => '2015052700001000570066730171',
+  'sign' => 'e31a6bd42db07cf77e8643618fa5a924',
+  'sign_type' => 'MD5',
+  'TMAC_CONTROLLER_FILE' => 'pay/alipay',
+  'TMAC_CONTROLLER' => 'alipay',
+  'TMAC_ACTION' => 'returnurl',
+)
+[2015-05-27 19:56:04]  --> array (
+  'out_trade_no' => '55',
+  'request_token' => 'requestToken',
+  'result' => 'success',
+  'trade_no' => '2015052600001000570066639026',
+  'sign' => 'e8288a63723867efc912d28343099584',
+  'sign_type' => 'MD5',
+  'TMAC_CONTROLLER_FILE' => 'pay/alipay',
+  'TMAC_CONTROLLER' => 'alipay',
+  'TMAC_ACTION' => 'returnurl',
+)

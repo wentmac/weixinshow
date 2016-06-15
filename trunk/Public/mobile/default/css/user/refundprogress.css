@@ -1,0 +1,345 @@
+.progressInfo,
+.progress {
+	background: #fff;
+	padding: 0px 10px;
+}
+.progressInfo h2,
+.progress h2 {
+	font-size: 15px;
+	height: 48px;
+	line-height: 48px;
+	position: relative;
+	padding-left: 32px;
+}
+.progressInfo h2 span {
+	border: #666 solid 1px;
+	height: 15px;
+	width: 15px;
+	border-radius: 8px;
+	display: block;
+	position: absolute;
+	top: 14px;
+	left: 10px;
+	line-height: 15px;
+	text-align: center;
+	color: #666
+}
+.progressInfo ul {
+	padding: 10px 10px;
+}
+.progressInfo li {
+	padding-top: 6px;
+	padding-bottom: 4px;
+	height: 44px;
+	line-height: 22px;
+}
+.progressInfo li p.first {} .progressInfo li p.second {
+	color: #999;
+	padding-left: 10px;
+}
+.progressInfo p.second span {
+	color: #d93229
+}
+.refundBtn {
+	width: 100%;
+	height: 60px;
+	margin-top: 10px;
+}
+.refundBtn span {
+	width: 24%;
+	display: block;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	border-radius: 2px;
+}
+.refundBtn span.cencer {
+	background: #e8eaea;
+	color: #c60a1e;
+	float: left;
+}
+.refundBtn span.ok {
+	background: #c60a1e;
+	color: #fff;
+	float: right;
+}
+.refundBtn a {
+	width: 24%;
+	float: right;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	background: #d40000;
+	border-radius: 2px;
+	color: white;
+	margin-left: 1%;
+	margin-top: 13px;
+}
+.refundBtn a.first {
+	float: left;
+}
+.refundBtn a.second {
+	float: right;
+}
+.refundBtn a span {
+	width: 100%
+}
+.refundBtn a.second span {
+	border-left: #ccc solid 1px;
+	display: block;
+	height: 20px;
+	margin-top: 12px;
+	line-height: 20px;
+}
+.refundBtn a.two {
+	width: 50%;
+	max-width: 320px;
+}
+.refundBtn a.three {
+	width: 33%;
+	max-width: 213px;
+}
+.refundS {
+	text-align: center;
+	margin-top: 10px;
+}
+.refundS span {
+	color: #c60a1e;
+	font-size: 13px;
+	height: 50px;
+	line-height: 50px;
+}
+/*//border-bottom: #f2f2f2 solid 1px; */
+
+.progress h2 span {
+	position: absolute;
+	border-left: #c60a1e solid 3px;
+	border-bottom: #c60a1e solid 3px;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	width: 15px;
+	height: 6px;
+	left: 10px;
+	top: 17px;
+}
+.progress ul {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	overflow: auto;
+}
+.progress li {
+	float: left;
+	width: 27%;
+	text-align: center;
+	position: relative;
+	padding: 0 3%
+}
+.progress li span {
+	display: block;
+	width: 100%
+}
+.progress li span.step {
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	line-height: 30px;
+	color: #fff;
+	background: #f74b4b;
+	display: block;
+	margin: 0 auto;
+}
+.progress li span.uncheck {
+	background: #ccc
+}
+.progress li span.text {
+	padding-top: 4px;
+	color: #a9a9a9
+}
+.progress li span.time {
+	color: #a9a9a9
+}
+.progress li span.checktext {
+	color: #323232
+}
+.progress li a.jiantou {
+	position: absolute;
+	display: block;
+	width: 6px;
+	height: 6px;
+	right: -3px;
+	top: 10px;
+	-webkit-transform: rotate(-135deg);
+	-moz-transform: rotate(-135deg);
+	-ms-transform: rotate(-135deg);
+	-o-transform: rotate(-135deg);
+	transform: rotate(-135deg);
+	border-left: #666 solid 1px;
+	border-bottom: #666 solid 1px;
+}
+.progress p {
+	line-height: 22px;
+	color: #a9a9a9;
+	padding-left: 10px;
+}
+.borderBottom {
+	border-bottom: #f2f2f2 solid 1px;
+	padding-bottom: 10px
+}
+.refundContact {
+	height: 45px;
+	line-height: 45px;
+	background: #fff;
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #dcdcdc;
+}
+.refundContact a {
+	display: block;
+	margin: 0px 20px;
+	border-top: #f2f2f2 solid 1px;
+	position: relative;
+}
+.refundContact a span {
+	position: absolute;
+	right: 10px;
+	-webkit-transform: rotate(-135deg);
+	-moz-transform: rotate(-135deg);
+	-ms-transform: rotate(-135deg);
+	-o-transform: rotate(-135deg);
+	transform: rotate(-135deg);
+	border-left: #666 solid 1px;
+	border-bottom: #666 solid 1px;
+	position: absolute;
+	right: 0px;
+	top: 17px;
+	height: 10px;
+	width: 10px;
+	display: block;
+}
+.refundContact a em {
+	background: url('http://s.koudai.com/images/user/refund_IM.png?v=2015071602') no-repeat;
+	background-size: 15px;
+	padding-left: 18px;
+}
+.progressRecord {
+	background: #fff;
+	margin-top: 10px;
+	padding: 0px 20px;
+}
+.progressRecord a {
+	border-bottom: #f2f2f2 solid 1px;
+	height: 42px;
+	line-height: 42px;
+	font-size: 14px;
+	display: block;
+	position: relative;
+}
+.progressRecord a span {
+	-webkit-transform: rotate(-135deg);
+	-moz-transform: rotate(-135deg);
+	-ms-transform: rotate(-135deg);
+	-o-transform: rotate(-135deg);
+	transform: rotate(-135deg);
+	border-left: #666 solid 1px;
+	border-bottom: #666 solid 1px;
+	position: absolute;
+	right: 0px;
+	top: 17px;
+	height: 10px;
+	width: 10px;
+	display: block;
+}
+.progressRecord ul {
+	padding: 10px 0px;
+}
+.progressRecord li {
+	height: 30px;
+	line-height: 30px;
+}
+#refund_status_desc p {
+	padding-left: 15px;
+}
+#refund_status_desc p.first {
+	background: url('http://s.koudai.com/images/others/app/sales/dian.png?v=2015071602') no-repeat 0 6px;
+}
+#refund_status_desc p.second {
+	color: #999999;
+	padding-bottom: 6px;
+}
+/*鐢宠閫€娆�*/
+
+.closeOrderFloat {
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 10;
+	top: 0px;
+	left: 0px;
+}
+.closeOrderFloat ul {
+	margin: 20px auto 10px;
+	padding: 0px 10px;
+	max-width: 640px;
+}
+.closeOrderFloat li {
+	line-height: 42px;
+	height: 42px;
+	text-align: center;
+	background: #fff;
+	margin-top: 2px;
+}
+.closeOrderFloat span {
+	display: block;
+	padding: 0px 10px;
+}
+.closeOrderFloat span em {
+	display: block;
+	background: #fff;
+	margin: 10px auto;
+	color: #ca2d39;
+	text-align: center;
+	height: 42px;
+	line-height: 42px;
+	width: 100%;
+	max-width: 640px;
+}
+.fixBottom {
+	position: absolute;
+	bottom: 80px;
+	left: 0px;
+	width: 100%;
+	background: #e3e2e2;
+	overflow: auto;
+	height: auto;
+}
+.refuse {
+	background: #fff;
+	padding: 10px 20px 20px 20px;
+	overflow: auto;
+}
+.refuse p {
+	padding-top: 5px;
+}
+.refuse textarea {
+	height: 80px;
+	width: 100%;
+	font-size: 14px;
+	border: #e3e3e3 solid 1px;
+	padding: 5px 0px
+}
+.refuse span {
+	width: 48%;
+	float: left;
+	padding: 0px;
+}
+.refuse span.right {
+	float: right;
+}
+.fixBottom {
+	height: 172px;
+	bottom: 50px;
+}

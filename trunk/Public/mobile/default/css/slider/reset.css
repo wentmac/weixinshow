@@ -1,0 +1,38 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline;}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display:block;}
+body{line-height:1;}
+blockquote, q{quotes:none;}
+blockquote:before, blockquote:after,
+q:before, q:after{content:'';content:none;}
+.clearfix:before,
+.clearfix:after{content:""; display:table;}
+.clearfix:after{clear:both;}
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix{zoom:1;}
+body{zoom:1;}
+body{font-family:'Open Sans','Helvetica Neue', Arial, sans-serif;font-size:14px;color:#111;line-height:21px;}
+a{color:#C00;text-decoration:none;}
+a:hover{color:#F00;text-decoration:underline;}
+body{-webkit-text-size-adjust:100%;}
+h1{font-size:24px;line-height:30px;margin-bottom:12px;}
+h2{font-size:18px;margin-bottom:4px;}
+small{font-size:0.75em;}
+h1, h2, h3, h4, h5, h6{font-weight:bold;font-family:inherit;}
+h1{font-size:36px;line-height:42px;}
+h2{font-size:24px;margin:28px 0 12px;line-height:26px;}
+h3{font-weight:normal;font-size:20px;margin:22px 0 12px;line-height:24px;}
+h4,h5,h6{font-size:16px;margin:20px 0 8px;}
+p{margin-bottom:8px;}

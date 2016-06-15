@@ -1,0 +1,22 @@
+ErrorDocument 404 /index.php?m=error
+<Files *.tpl>
+Order Allow,Deny    
+Deny from all
+</Files>
+RewriteEngine on
+RewriteBase /
+# Allow any files or directories that exist to be displayed directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^index.html$				 /index.php [L]
+#RewriteRule ^([a-zA-Z0-9\.\/_]+)$        index.php?m=$1 [QSA,L]
+#RewriteRule ^(.*)$					 	 index.php?m=$1 [QSA,L]
+
+RewriteRule ^(account)/(\w+)/?$                      /index.php\?m=$1.$2&%1 [QSA,L]
+RewriteRule ^(order|others|oauth|tool|shop|receivable|market|weixin)/([a-zA-Z\._]+)/?$    		 /index.php\?m=$1.$2&%1 [QSA,L]
+RewriteRule ^(pay|member)/([a-zA-Z\._]+)/?$          /index.php\?m=$1/$2&%1 [QSA,L]
+RewriteRule ^(item|receivable|goods|notice|article)/([0-9]+)\.html$			 		 /index.php\?m=$1&id=$2 [L]
+RewriteRule ^(shop)/(\d+)?$			 		 		 /index.php\?m=$1&id=$2&%1 [QSA,L]
+RewriteRule ^(download)/?$		 /index.php\?m=index.$1&%1 [QSA,L]
+RewriteRule ^(da|help)/(\w+)\.html$		 				 /index.php\?m=$1.$2&%1 [QSA,L]

@@ -1,0 +1,137 @@
+
+[2015-06-03 15:32:00]  --> notify_(订单不存在 或 订单未支付成功不能退款):array (
+  'sign' => 'f8d10e615b34e52a29d516a3908be634',
+  'result_details' => '2015052900001000570066998879^0.01^SUCCESS',
+  'notify_time' => '2015-05-30 18:11:02',
+  'sign_type' => 'MD5',
+  'notify_type' => 'batch_refund_notify',
+  'notify_id' => '22677a3296caed40741a4d508d714a5mk4',
+  'batch_no' => '2015053018101035',
+  'success_num' => '1',
+)
+[2015-06-03 15:37:30]  --> notify_更新本地退款数据失败:退款的交易号与付款交易号不符array (
+  'sign' => 'f8d10e615b34e52a29d516a3908be634',
+  'result_details' => '2015052900001000570066998879^0.01^SUCCESS',
+  'notify_time' => '2015-05-30 18:11:02',
+  'sign_type' => 'MD5',
+  'notify_type' => 'batch_refund_notify',
+  'notify_id' => '22677a3296caed40741a4d508d714a5mk4',
+  'batch_no' => '2015053018101035',
+  'success_num' => '1',
+)
+[2015-06-03 15:39:26]  --> notify_更新本地退款数据失败:退款的交易号与付款交易号不符array (
+  'sign' => 'f8d10e615b34e52a29d516a3908be634',
+  'result_details' => '2015052900001000570066998879^0.01^SUCCESS',
+  'notify_time' => '2015-05-30 18:11:02',
+  'sign_type' => 'MD5',
+  'notify_type' => 'batch_refund_notify',
+  'notify_id' => '22677a3296caed40741a4d508d714a5mk4',
+  'batch_no' => '2015053018101035',
+  'success_num' => '1',
+)
+[2015-06-03 15:41:37]  --> notify_(订单不存在 或 订单未支付成功不能退款):array (
+  'sign' => 'f8d10e615b34e52a29d516a3908be634',
+  'result_details' => '2015052800001000570066898489^0.01^SUCCESS',
+  'notify_time' => '2015-05-30 18:11:02',
+  'sign_type' => 'MD5',
+  'notify_type' => 'batch_refund_notify',
+  'notify_id' => '22677a3296caed40741a4d508d714a5mk4',
+  'batch_no' => '2015053018101035',
+  'success_num' => '1',
+)
+[2015-06-03 15:51:43]  --> notify_更新本地退款数据失败:售后流程没有对应的权限array (
+  'sign' => 'f8d10e615b34e52a29d516a3908be634',
+  'result_details' => '2015052800001000570066898489^0.01^SUCCESS',
+  'notify_time' => '2015-05-30 18:11:02',
+  'sign_type' => 'MD5',
+  'notify_type' => 'batch_refund_notify',
+  'notify_id' => '22677a3296caed40741a4d508d714a5mk4',
+  'batch_no' => '2015053018101035',
+  'success_num' => '1',
+)
+[2015-06-03 16:00:12]  --> notify_更新本地退款数据失败:售后流程没有对应的权限array (
+  'sign' => 'f8d10e615b34e52a29d516a3908be634',
+  'result_details' => '2015052800001000570066898489^0.01^SUCCESS',
+  'notify_time' => '2015-05-30 18:11:02',
+  'sign_type' => 'MD5',
+  'notify_type' => 'batch_refund_notify',
+  'notify_id' => '22677a3296caed40741a4d508d714a5mk4',
+  'batch_no' => '2015053018101035',
+  'success_num' => '1',
+)
+[2015-06-03 16:00:20]  --> notify_更新本地退款数据失败:售后流程没有对应的权限array (
+  'sign' => 'f8d10e615b34e52a29d516a3908be634',
+  'result_details' => '2015052800001000570066898489^0.01^SUCCESS',
+  'notify_time' => '2015-05-30 18:11:02',
+  'sign_type' => 'MD5',
+  'notify_type' => 'batch_refund_notify',
+  'notify_id' => '22677a3296caed40741a4d508d714a5mk4',
+  'batch_no' => '2015053018101035',
+  'success_num' => '1',
+)
+[2015-06-03 16:01:07]  --> notify_更新本地退款数据失败:售后流程没有对应的权限array (
+  'sign' => 'f8d10e615b34e52a29d516a3908be634',
+  'result_details' => '2015052800001000570066898489^0.01^SUCCESS',
+  'notify_time' => '2015-05-30 18:11:02',
+  'sign_type' => 'MD5',
+  'notify_type' => 'batch_refund_notify',
+  'notify_id' => '22677a3296caed40741a4d508d714a5mk4',
+  'batch_no' => '2015053018101035',
+  'success_num' => '1',
+)
+[2015-06-03 16:02:17]  --> notify_更新本地退款数据失败:售后流程没有对应的权限array (
+  'sign' => 'f8d10e615b34e52a29d516a3908be634',
+  'result_details' => '2015052800001000570066898489^0.01^SUCCESS',
+  'notify_time' => '2015-05-30 18:11:02',
+  'sign_type' => 'MD5',
+  'notify_type' => 'batch_refund_notify',
+  'notify_id' => '22677a3296caed40741a4d508d714a5mk4',
+  'batch_no' => '2015053018101035',
+  'success_num' => '1',
+)array (
+)
+[2015-06-03 16:03:36]  --> notify_更新本地退款数据失败:售后流程没有对应的权限array (
+  'sign' => 'f8d10e615b34e52a29d516a3908be634',
+  'result_details' => '2015052800001000570066898489^0.01^SUCCESS',
+  'notify_time' => '2015-05-30 18:11:02',
+  'sign_type' => 'MD5',
+  'notify_type' => 'batch_refund_notify',
+  'notify_id' => '22677a3296caed40741a4d508d714a5mk4',
+  'batch_no' => '2015053018101035',
+  'success_num' => '1',
+)array (
+  'order_goods_id' => '70',
+  'TMAC_CONTROLLER_FILE' => 'pay/alipay',
+  'TMAC_CONTROLLER' => 'alipay',
+  'TMAC_ACTION' => 'autoRefund',
+)
+[2015-06-03 16:04:11]  --> notify_更新本地退款数据失败:售后流程没有对应的权限array (
+  'sign' => 'f8d10e615b34e52a29d516a3908be634',
+  'result_details' => '2015052800001000570066898489^0.01^SUCCESS',
+  'notify_time' => '2015-05-30 18:11:02',
+  'sign_type' => 'MD5',
+  'notify_type' => 'batch_refund_notify',
+  'notify_id' => '22677a3296caed40741a4d508d714a5mk4',
+  'batch_no' => '2015053018101035',
+  'success_num' => '1',
+)array (
+  'order_goods_id' => '70',
+  'TMAC_CONTROLLER_FILE' => 'pay/alipay',
+  'TMAC_CONTROLLER' => 'alipay',
+  'TMAC_ACTION' => 'autoRefund',
+)
+[2015-06-03 16:20:37]  --> notify_更新本地退款数据失败:售后流程没有对应的权限array (
+  'sign' => 'f8d10e615b34e52a29d516a3908be634',
+  'result_details' => '2015052800001000570066898489^0.01^SUCCESS',
+  'notify_time' => '2015-05-30 18:11:02',
+  'sign_type' => 'MD5',
+  'notify_type' => 'batch_refund_notify',
+  'notify_id' => '22677a3296caed40741a4d508d714a5mk4',
+  'batch_no' => '2015053018101035',
+  'success_num' => '1',
+)array (
+  'order_goods_id' => '70',
+  'TMAC_CONTROLLER_FILE' => 'pay/alipay',
+  'TMAC_CONTROLLER' => 'alipay',
+  'TMAC_ACTION' => 'autoRefund',
+)

@@ -1,0 +1,242 @@
+input, button{font-family: inherit; font-size: inherit;}
+body{font-size: 14px; background-color: #f5f5f5; color: #333333;}
+a{color: #333333;}
+.fpay-list, .fpay-list li{-webkit-border-image: url(../../images/border.gif) 2 stretch;}
+
+
+.pay-info{background-color: #c60a1e; padding: 20px 15px; color: #fff; line-height: 1;}
+.pay-info p:not(:last-child){margin-bottom: 15px;}
+.pay-info span{float: left; margin-right: 15px; width: 57px; height: 57px; background-size: cover; background-repeat: no-repeat; border-radius: 50%;}
+.pay-info strong{font-size: 28px; margin-top: 15px;}
+
+.fpay-list{padding: 0 15px; border-width: 0 0 1px; margin-top: 12px; color: #333333; background-color: #fff;}
+.fpay-list li{line-height: 40px; border-width: 0 0 1px; overflow: hidden;}
+.fpay-list li strong{margin-right: 37px;}
+
+	.edit-address{position: relative; display: block; padding-right: 20px;}
+	.edit-address:after{content: ''; position: absolute; right: 2px; top: 50%; margin-top: -6px; width: 10px; height: 10px; border: 1px solid #5f646e; border-width:0 1px 1px 0; -webkit-transform:rotate(-45deg);}
+	.edit-address dl{line-height: 1.2; padding: 4px 0 12px;}
+	.edit-address dt{float: left; font-weight: bold; margin-right: 2px;}
+	.edit-address dd{overflow: hidden;}
+
+.fpay-list li:last-child{border-width: 0;}
+.textarea{display: block; margin: 12px 0; width: 100%; height: 80px; padding: 7px; line-height: 22px; background-color: #ebebeb; border: none; border-radius: 7px;}
+
+/* .no-delivery */
+.no-delivery .textarea {
+    height: 60px;
+}
+
+.no-delivery .pay-info {
+    padding: 40px 15px;
+}
+.no-delivery .pay-info span {
+    float: none;
+    display: block;
+    margin: 0 auto;
+}
+.no-delivery .pay-info p:not(:last-child) {
+    margin: 15px 0;
+}
+.no-delivery .pay-info p {
+    text-align: center;
+}
+
+.widget-wrap{height: 92px;}
+.comment-footer .pay-list {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    bottom: 62px;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    width: 100%;
+    height: 30px;
+    padding: 0 15px;
+    font-size: 10px;
+    color: #9a9a9a;
+    background: #fff;
+}
+.comment-footer .pay-list>i {
+    display: block;
+    height: 20px;
+    margin-right: 6px;
+    background: url(../../images/pay.png) no-repeat -40px;
+    -webkit-background-size: 40px auto;
+}
+.comment-footer .pay-list .icon-wechat {
+    width: 17px;
+    background-position: center -20px;
+}
+.comment-footer .pay-list .icon-alipay {
+    width: 19px;
+    background-position: center 0;
+}
+.comment-footer .pay-list .icon-yinlian {
+    width: 23px;
+    background-position: center -40px;
+}
+.comment-footer .pay-list .icon-caifutong {
+    width: 31px;
+    background-position: center -60px;
+}
+.comment-footer .pay-list>span {
+    display: block;
+    margin-left: 6px;
+}
+.fixed{position: fixed; left: 0; bottom: 0; width: 100%; padding: 9px 15px; background-color: #fff; -webkit-border-image: url(../../images/border.gif) 2 stretch; border-width: 1px 0 0;}
+.btns{-webkit-appearance: none; display: block; width: 100%; border: none; height: 43px; line-height: 43px; color: #fff; border-radius: 5px; text-align: center; background-color: #c60a1e;}
+
+.tip-title{color: #333333; font-size: 16px; font-weight: bold; margin-bottom: 10px;}
+
+/***************************/
+.dialog-pay{}
+.dialog-pay .widget_mask{
+	background:rgba(0,0,0,0.85);
+}
+.dialogPay-wrapper{
+    position: fixed;
+    top:50%;
+    border-radius:11px;
+    left:50%;
+    width:300px;
+    margin-left:-150px;
+    padding:0 15px;
+    background: #ffffff;
+    -webkit-transform: translateY(-50%);
+}
+.dialogPay-wrapper header label{
+    line-height:44px;
+    font-size:17px;
+    color:#414141;
+    text-align:center;
+    display:block;
+    margin: 0 -15px;
+    border-width: 0 0 1px;
+    -webkit-border-image: url(../../images/border.gif) 2 stretch;
+}
+.dialogPay-wrapper header .pay-sum{
+    font-size:19px;
+    color:#ff5e39;
+}
+.dialogPay-wrapper .pay-list li{
+    position: relative;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    height: 46px;
+    font-size:15px;
+    line-height:44px;
+    color: #414141;
+}
+.dialogPay-wrapper .pay-list li+li {
+    border-width: 1px 0 0;
+    -webkit-border-image: url(../../images/border.gif) 2 stretch;
+}
+.dialogPay-wrapper .pay-list li:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 44px;
+    height: 44px;
+    background: url(../../images/pay.png) no-repeat 13px -77px;
+    -webkit-background-size: 40px auto;
+}
+
+.dialogPay-wrapper .pay-list li.on:after {
+    background-position: 13px -117px;
+}
+.dialogPay-wrapper .pay-list li i{
+    display: block;
+    height: 30px;
+    width: 50px;
+    margin-right: 10px;
+    background: url(../../images/pay.png) no-repeat -50px;
+    -webkit-background-size: 60px auto;
+}
+.dialogPay-wrapper .pay-list .icon-newweipay {
+    background-position: center -30px;
+}
+.dialogPay-wrapper .pay-list .icon-alipay {
+    background-position: center -210px;
+    -webkit-background-size: 50px auto;
+}
+.dialogPay-wrapper .pay-list .icon-chinapay {
+    background-position: center -60px;
+}
+.dialogPay-wrapper .pay-list .icon-tenpay {
+    background-position: center -90px;
+}
+.dialogPay-wrapper .pay-text{
+    line-height:15px;
+    font-size:12px;
+    color:#7e7c7c;
+    padding: 12px 15px;
+    margin: 0 -15px;
+    border-width: 1px 0 0;
+    -webkit-border-image: url(../../images/border.gif) 2 stretch;
+}
+
+.dialogPay-wrapper footer li{
+	padding:8px 0 14px;
+}
+.dialogPay-wrapper footer li:first-of-type{
+	margin-right:20px;
+}
+.dialogPay-wrapper footer a{
+	display:block;
+	margin:auto;
+	height:42px;
+    line-height:40px;
+    font-size:16px;
+	background:#ffffff;
+	color:#333333;
+	border:1px solid #cbcbcb;
+	border-radius:3px;
+	text-align:center;
+}
+.dialogPay-wrapper footer a[data-btn="1"]{
+	color:#ffffff;
+	background:#fd6946;
+	border:0;
+}
+
+/* .field-wrap */
+.field-wrap {
+    margin: 15px 0 3px;
+    background-color: #fff;
+    border-width: 0 0 1px;
+    -webkit-border-image: url(../../images/border.gif) 2 stretch;
+}
+.field-wrap .field {
+    margin: 0 15px;
+    padding: 11px 0;
+    line-height: 20px;
+}
+.field-wrap .field+.field {
+    border-width: 1px 0 0;
+    -webkit-border-image: url(../../images/border.gif) 2 stretch;
+}
+.field-wrap .field label {
+    display: -webkit-box;
+    position: relative;
+    -webkit-box-align: center;
+    color: #333333;
+}
+.field-wrap .field>label::before {
+    content: '*';
+    position: absolute;
+    left: -8px;
+    top: 3px;
+    color: #ff0000;
+}
+.field-wrap input[type="text"],
+.field-wrap input[type="tel"] {
+    display: block;
+    margin-left: 10px;
+    border: none;
+    -webkit-box-flex: 1;
+    background: none;
+    font-size: 14px;
+}

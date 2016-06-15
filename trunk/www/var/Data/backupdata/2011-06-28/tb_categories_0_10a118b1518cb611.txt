@@ -1,0 +1,5 @@
+INSERT INTO `tb_categories` VALUES('1','0','IT技术','it','记录it的技术文章','0','0');
+INSERT INTO `tb_categories` VALUES('2','1','php技术','php','php技术，it技术的分类下','0','0');
+INSERT INTO `tb_categories` VALUES('6','0','生活','sh','asp技术','0','0');
+INSERT INTO `tb_categories` VALUES('8','8','asp技术s','asp','asp技术','0','0');
+INSERT INTO `tb_categories` VALUES('9','8','asp技术s','asp','asp技术','0','0');

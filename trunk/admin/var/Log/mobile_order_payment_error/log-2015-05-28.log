@@ -1,0 +1,96 @@
+
+[2015-05-28 21:58:27]  --> notify_(notify_data的notify参数为空):array (
+  'username' => '15011340204',
+  'password' => '123456',
+)
+[2015-05-28 22:22:27]  --> notify_(notify_data的notify参数为空):array (
+  'service' => 'alipay.wap.trade.create.direct',
+  'sign' => '50fcc7ed57d79d975e9c28eb8f588617',
+  'sec_id' => 'MD5',
+  'v' => '1.0',
+  'notify_data' => '<notify><payment_type>1</payment_type><subject>休闲服(数量：1)</subject><trade_no>2015052700001000570066728634</trade_no><buyer_email>zwt007@gmail.com</buyer_email><gmt_create>2015-05-27 15:41:30</gmt_create><notify_type>trade_status_sync</notify_type><quantity>1</quantity><out_trade_no>52</out_trade_no><notify_time>2015-05-27 15:45:59</notify_time><seller_id>2088411147045803</seller_id><trade_status>TRADE_FINISHED</trade_status><is_total_fee_adjust>N</is_total_fee_adjust><total_fee>0.01</total_fee><gmt_payment>2015-05-27 15:41:40</gmt_payment><seller_email>admin@9580.com</seller_email><gmt_close>2015-05-27 15:41:40</gmt_close><price>0.01</price><buyer_id>2088002388365571</buyer_id><notify_id>524f48d62626ee81f0686aae1fb8cdb056</notify_id><use_coupon>N</use_coupon></notify>',
+)
+[2015-05-28 22:27:33]  --> notify_(notify_data的notify参数为空):array (
+  'service' => 'alipay.wap.trade.create.direct',
+  'sign' => '50fcc7ed57d79d975e9c28eb8f588617',
+  'sec_id' => 'MD5',
+  'v' => '1.0',
+  'notify_data' => '<notify><payment_type>1</payment_type><subject>休闲服(数量：1)</subject><trade_no>2015052700001000570066728634</trade_no><buyer_email>zwt007@gmail.com</buyer_email><gmt_create>2015-05-27 15:41:30</gmt_create><notify_type>trade_status_sync</notify_type><quantity>1</quantity><out_trade_no>52</out_trade_no><notify_time>2015-05-27 15:45:59</notify_time><seller_id>2088411147045803</seller_id><trade_status>TRADE_FINISHED</trade_status><is_total_fee_adjust>N</is_total_fee_adjust><total_fee>0.01</total_fee><gmt_payment>2015-05-27 15:41:40</gmt_payment><seller_email>admin@9580.com</seller_email><gmt_close>2015-05-27 15:41:40</gmt_close><price>0.01</price><buyer_id>2088002388365571</buyer_id><notify_id>524f48d62626ee81f0686aae1fb8cdb056</notify_id><use_coupon>N</use_coupon></notify>',
+)
+[2015-05-28 22:47:08]  --> notify_(notify_data的notify参数为空):array (
+  'service' => 'alipay.wap.trade.create.direct',
+  'sign' => 'cc158579a90863dc582f090e66176a38',
+  'sec_id' => 'MD5',
+  'v' => '1.0',
+  'notify_data' => '<notify><payment_type>1</payment_type><subject>英式橄榄球训练球(数量：1)|Optimum英式橄榄球五号训练球(数量：1)</subject><trade_no>2015052800001000570066898489</trade_no><buyer_email>zwt007@gmail.com</buyer_email><gmt_create>2015-05-28 22:39:44</gmt_create><notify_type>trade_status_sync</notify_type><quantity>1</quantity><out_trade_no>50</out_trade_no><notify_time>2015-05-28 22:39:55</notify_time><seller_id>2088411147045803</seller_id><trade_status>TRADE_FINISHED</trade_status><is_total_fee_adjust>N</is_total_fee_adjust><total_fee>0.01</total_fee><gmt_payment>2015-05-28 22:39:54</gmt_payment><seller_email>admin@9580.com</seller_email><gmt_close>2015-05-28 22:39:54</gmt_close><price>0.01</price><buyer_id>2088002388365571</buyer_id><notify_id>cf827d5ee9e5e4dc6667907301a0b2d856</notify_id><use_coupon>N</use_coupon></notify>',
+)
+[2015-05-28 22:49:14]  --> notify_(notify_data的notify参数为空):array (
+  'service' => 'alipay.wap.trade.create.direct',
+  'sign' => 'cc158579a90863dc582f090e66176a38',
+  'sec_id' => 'MD5',
+  'v' => '1.0',
+  'notify_data' => '<notify><payment_type>1</payment_type><subject>英式橄榄球训练球(数量：1)|Optimum英式橄榄球五号训练球(数量：1)</subject><trade_no>2015052800001000570066898489</trade_no><buyer_email>zwt007@gmail.com</buyer_email><gmt_create>2015-05-28 22:39:44</gmt_create><notify_type>trade_status_sync</notify_type><quantity>1</quantity><out_trade_no>50</out_trade_no><notify_time>2015-05-28 22:39:55</notify_time><seller_id>2088411147045803</seller_id><trade_status>TRADE_FINISHED</trade_status><is_total_fee_adjust>N</is_total_fee_adjust><total_fee>0.01</total_fee><gmt_payment>2015-05-28 22:39:54</gmt_payment><seller_email>admin@9580.com</seller_email><gmt_close>2015-05-28 22:39:54</gmt_close><price>0.01</price><buyer_id>2088002388365571</buyer_id><notify_id>cf827d5ee9e5e4dc6667907301a0b2d856</notify_id><use_coupon>N</use_coupon></notify>',
+)
+[2015-05-28 22:49:24]  --> notify_(notify_data的notify参数为空):array (
+  'service' => 'alipay.wap.trade.create.direct',
+  'sign' => 'cc158579a90863dc582f090e66176a38',
+  'sec_id' => 'MD5',
+  'v' => '1.0',
+  'notify_data' => '<notify><payment_type>1</payment_type><subject>英式橄榄球训练球(数量：1)|Optimum英式橄榄球五号训练球(数量：1)</subject><trade_no>2015052800001000570066898489</trade_no><buyer_email>zwt007@gmail.com</buyer_email><gmt_create>2015-05-28 22:39:44</gmt_create><notify_type>trade_status_sync</notify_type><quantity>1</quantity><out_trade_no>50</out_trade_no><notify_time>2015-05-28 22:39:55</notify_time><seller_id>2088411147045803</seller_id><trade_status>TRADE_FINISHED</trade_status><is_total_fee_adjust>N</is_total_fee_adjust><total_fee>0.01</total_fee><gmt_payment>2015-05-28 22:39:54</gmt_payment><seller_email>admin@9580.com</seller_email><gmt_close>2015-05-28 22:39:54</gmt_close><price>0.01</price><buyer_id>2088002388365571</buyer_id><notify_id>cf827d5ee9e5e4dc6667907301a0b2d856</notify_id><use_coupon>N</use_coupon></notify>',
+)
+[2015-05-28 22:51:27]  --> notify_(notify_data的notify参数为空):array (
+  'service' => 'alipay.wap.trade.create.direct',
+  'sign' => 'cc158579a90863dc582f090e66176a38',
+  'sec_id' => 'MD5',
+  'v' => '1.0',
+  'notify_data' => '<notify><payment_type>1</payment_type><subject>英式橄榄球训练球(数量：1)|Optimum英式橄榄球五号训练球(数量：1)</subject><trade_no>2015052800001000570066898489</trade_no><buyer_email>zwt007@gmail.com</buyer_email><gmt_create>2015-05-28 22:39:44</gmt_create><notify_type>trade_status_sync</notify_type><quantity>1</quantity><out_trade_no>50</out_trade_no><notify_time>2015-05-28 22:39:55</notify_time><seller_id>2088411147045803</seller_id><trade_status>TRADE_FINISHED</trade_status><is_total_fee_adjust>N</is_total_fee_adjust><total_fee>0.01</total_fee><gmt_payment>2015-05-28 22:39:54</gmt_payment><seller_email>admin@9580.com</seller_email><gmt_close>2015-05-28 22:39:54</gmt_close><price>0.01</price><buyer_id>2088002388365571</buyer_id><notify_id>cf827d5ee9e5e4dc6667907301a0b2d856</notify_id><use_coupon>N</use_coupon></notify>',
+)
+[2015-05-28 22:51:37]  --> notify_(notify_data的notify参数为空):array (
+  'service' => 'alipay.wap.trade.create.direct',
+  'sign' => 'cc158579a90863dc582f090e66176a38',
+  'sec_id' => 'MD5',
+  'v' => '1.0',
+  'notify_data' => '<notify><payment_type>1</payment_type><subject>英式橄榄球训练球(数量：1)|Optimum英式橄榄球五号训练球(数量：1)</subject><trade_no>2015052800001000570066898489</trade_no><buyer_email>zwt007@gmail.com</buyer_email><gmt_create>2015-05-28 22:39:44</gmt_create><notify_type>trade_status_sync</notify_type><quantity>1</quantity><out_trade_no>50</out_trade_no><notify_time>2015-05-28 22:39:55</notify_time><seller_id>2088411147045803</seller_id><trade_status>TRADE_FINISHED</trade_status><is_total_fee_adjust>N</is_total_fee_adjust><total_fee>0.01</total_fee><gmt_payment>2015-05-28 22:39:54</gmt_payment><seller_email>admin@9580.com</seller_email><gmt_close>2015-05-28 22:39:54</gmt_close><price>0.01</price><buyer_id>2088002388365571</buyer_id><notify_id>cf827d5ee9e5e4dc6667907301a0b2d856</notify_id><use_coupon>N</use_coupon></notify>',
+)
+[2015-05-28 22:51:49]  --> notify_(notify_data的notify参数为空):array (
+  'service' => 'alipay.wap.trade.create.direct',
+  'sign' => 'cc158579a90863dc582f090e66176a38',
+  'sec_id' => 'MD5',
+  'v' => '1.0',
+  'notify_data' => '<notify><payment_type>1</payment_type><subject>英式橄榄球训练球(数量：1)|Optimum英式橄榄球五号训练球(数量：1)</subject><trade_no>2015052800001000570066898489</trade_no><buyer_email>zwt007@gmail.com</buyer_email><gmt_create>2015-05-28 22:39:44</gmt_create><notify_type>trade_status_sync</notify_type><quantity>1</quantity><out_trade_no>50</out_trade_no><notify_time>2015-05-28 22:39:55</notify_time><seller_id>2088411147045803</seller_id><trade_status>TRADE_FINISHED</trade_status><is_total_fee_adjust>N</is_total_fee_adjust><total_fee>0.01</total_fee><gmt_payment>2015-05-28 22:39:54</gmt_payment><seller_email>admin@9580.com</seller_email><gmt_close>2015-05-28 22:39:54</gmt_close><price>0.01</price><buyer_id>2088002388365571</buyer_id><notify_id>cf827d5ee9e5e4dc6667907301a0b2d856</notify_id><use_coupon>N</use_coupon></notify>',
+)
+[2015-05-28 22:52:07]  --> notify_(notify_data的notify参数为空):array (
+  'service' => 'alipay.wap.trade.create.direct',
+  'sign' => 'cc158579a90863dc582f090e66176a38',
+  'sec_id' => 'MD5',
+  'v' => '1.0',
+  'notify_data' => '<notify><payment_type>1</payment_type><subject>英式橄榄球训练球(数量：1)|Optimum英式橄榄球五号训练球(数量：1)</subject><trade_no>2015052800001000570066898489</trade_no><buyer_email>zwt007@gmail.com</buyer_email><gmt_create>2015-05-28 22:39:44</gmt_create><notify_type>trade_status_sync</notify_type><quantity>1</quantity><out_trade_no>50</out_trade_no><notify_time>2015-05-28 22:39:55</notify_time><seller_id>2088411147045803</seller_id><trade_status>TRADE_FINISHED</trade_status><is_total_fee_adjust>N</is_total_fee_adjust><total_fee>0.01</total_fee><gmt_payment>2015-05-28 22:39:54</gmt_payment><seller_email>admin@9580.com</seller_email><gmt_close>2015-05-28 22:39:54</gmt_close><price>0.01</price><buyer_id>2088002388365571</buyer_id><notify_id>cf827d5ee9e5e4dc6667907301a0b2d856</notify_id><use_coupon>N</use_coupon></notify>',
+)
+[2015-05-28 22:52:23]  --> notify_(notify_data的notify参数为空):array (
+  'service' => 'alipay.wap.trade.create.direct',
+  'sign' => 'cc158579a90863dc582f090e66176a38',
+  'sec_id' => 'MD5',
+  'v' => '1.0',
+  'notify_data' => '<notify><payment_type>1</payment_type><subject>英式橄榄球训练球(数量：1)|Optimum英式橄榄球五号训练球(数量：1)</subject><trade_no>2015052800001000570066898489</trade_no><buyer_email>zwt007@gmail.com</buyer_email><gmt_create>2015-05-28 22:39:44</gmt_create><notify_type>trade_status_sync</notify_type><quantity>1</quantity><out_trade_no>50</out_trade_no><notify_time>2015-05-28 22:39:55</notify_time><seller_id>2088411147045803</seller_id><trade_status>TRADE_FINISHED</trade_status><is_total_fee_adjust>N</is_total_fee_adjust><total_fee>0.01</total_fee><gmt_payment>2015-05-28 22:39:54</gmt_payment><seller_email>admin@9580.com</seller_email><gmt_close>2015-05-28 22:39:54</gmt_close><price>0.01</price><buyer_id>2088002388365571</buyer_id><notify_id>cf827d5ee9e5e4dc6667907301a0b2d856</notify_id><use_coupon>N</use_coupon></notify>',
+)
+[2015-05-28 22:53:23]  --> notify_(notify_data的notify参数为空):array (
+  'service' => 'alipay.wap.trade.create.direct',
+  'sign' => 'cc158579a90863dc582f090e66176a38',
+  'sec_id' => 'MD5',
+  'v' => '1.0',
+  'notify_data' => '<notify><payment_type>1</payment_type><subject>英式橄榄球训练球(数量：1)|Optimum英式橄榄球五号训练球(数量：1)</subject><trade_no>2015052800001000570066898489</trade_no><buyer_email>zwt007@gmail.com</buyer_email><gmt_create>2015-05-28 22:39:44</gmt_create><notify_type>trade_status_sync</notify_type><quantity>1</quantity><out_trade_no>50</out_trade_no><notify_time>2015-05-28 22:39:55</notify_time><seller_id>2088411147045803</seller_id><trade_status>TRADE_FINISHED</trade_status><is_total_fee_adjust>N</is_total_fee_adjust><total_fee>0.01</total_fee><gmt_payment>2015-05-28 22:39:54</gmt_payment><seller_email>admin@9580.com</seller_email><gmt_close>2015-05-28 22:39:54</gmt_close><price>0.01</price><buyer_id>2088002388365571</buyer_id><notify_id>cf827d5ee9e5e4dc6667907301a0b2d856</notify_id><use_coupon>N</use_coupon></notify>',
+)
+[2015-05-28 23:41:55]  --> notify_(notify_data的notify参数为空):array (
+  'service' => 'alipay.wap.trade.create.direct',
+  'sign' => 'cc158579a90863dc582f090e66176a38',
+  'sec_id' => 'MD5',
+  'v' => '1.0',
+  'notify_data' => '<notify><payment_type>1</payment_type><subject>英式橄榄球训练球(数量：1)|Optimum英式橄榄球五号训练球(数量：1)</subject><trade_no>2015052800001000570066898489</trade_no><buyer_email>zwt007@gmail.com</buyer_email><gmt_create>2015-05-28 22:39:44</gmt_create><notify_type>trade_status_sync</notify_type><quantity>1</quantity><out_trade_no>50</out_trade_no><notify_time>2015-05-28 22:39:55</notify_time><seller_id>2088411147045803</seller_id><trade_status>TRADE_FINISHED</trade_status><is_total_fee_adjust>N</is_total_fee_adjust><total_fee>0.01</total_fee><gmt_payment>2015-05-28 22:39:54</gmt_payment><seller_email>admin@9580.com</seller_email><gmt_close>2015-05-28 22:39:54</gmt_close><price>0.01</price><buyer_id>2088002388365571</buyer_id><notify_id>cf827d5ee9e5e4dc6667907301a0b2d856</notify_id><use_coupon>N</use_coupon></notify>',
+)
+[2015-05-28 23:42:32]  --> notify_(notify_data的notify参数为空):array (
+  'service' => 'alipay.wap.trade.create.direct',
+  'sign' => 'cc158579a90863dc582f090e66176a38',
+  'sec_id' => 'MD5',
+  'v' => '1.0',
+  'notify_data' => '<notify><payment_type>1</payment_type><subject>英式橄榄球训练球(数量：1)|Optimum英式橄榄球五号训练球(数量：1)</subject><trade_no>2015052800001000570066898489</trade_no><buyer_email>zwt007@gmail.com</buyer_email><gmt_create>2015-05-28 22:39:44</gmt_create><notify_type>trade_status_sync</notify_type><quantity>1</quantity><out_trade_no>50</out_trade_no><notify_time>2015-05-28 22:39:55</notify_time><seller_id>2088411147045803</seller_id><trade_status>TRADE_FINISHED</trade_status><is_total_fee_adjust>N</is_total_fee_adjust><total_fee>0.01</total_fee><gmt_payment>2015-05-28 22:39:54</gmt_payment><seller_email>admin@9580.com</seller_email><gmt_close>2015-05-28 22:39:54</gmt_close><price>0.01</price><buyer_id>2088002388365571</buyer_id><notify_id>cf827d5ee9e5e4dc6667907301a0b2d856</notify_id><use_coupon>N</use_coupon></notify>',
+)

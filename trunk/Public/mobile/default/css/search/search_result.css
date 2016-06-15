@@ -1,0 +1,210 @@
+.i_wrap{
+    padding-top:0
+}
+#search-head{
+    background-color: #f7f7f7;
+    padding:0 75px 0 40px;
+}
+#search-box{
+    padding: 5px 0;
+}
+#tb_search2{
+    width: 100%;
+    height: 34px;
+    line-height:normal;
+    font-size: 14px;
+    border: 1px solid #e3e3e3;
+    -webkit-appearance: none;
+    padding: 0 8px 0 28px;
+    background-size: 13px;
+    border-radius:3px;
+    text-indent:0;
+    background-color:#e2e4e4
+}
+#search-content{
+    /*padding: 15px 8px 0;*/
+    background-color:#fff;
+}
+.plaza_search_content{
+    margin-top:10px;
+}
+#plaza_search_i_wrap{
+    padding-top:20px;
+}
+#search_button{
+    padding: 6px 12px;
+    top:5px;
+}
+
+/*by abel  微店首页*/
+
+.mainIndex{ padding: 0px 5px;}
+.keyword{ padding: 5px 0px; overflow: auto}
+.keyword li{ float: left; width: 25%; text-align: center; margin-top: 10px; height: 40px; line-height: 40px; }
+.keyword li a{ background: #fff; display: block; margin:0px 5px;border-radius: 2px; }
+
+
+.hd_tle img{ width: 44px; vertical-align: top; margin-top: 10px;}
+.sanjiao{top:-4px; left: 32px; display: block; width: 0px; height: 0px;border-left:4px solid transparent;border-right:4px solid transparent;border-bottom:4px solid #444444;}
+
+.sortList{ padding: 0px 5px; overflow: auto; }
+.shopList{ overflow: auto; padding: 0px 2px; }
+.sortList h2,.shopList h2{ height: 25px; line-height: 30px; font-size: 14px; margin-top: 10px;}
+
+.sort{ position: relative; overflow: auto; background: #fff; padding: 10px 10px 10px 70px; margin-top: 10px;}
+.sort em{ position: absolute; left: 0px; top: 0px; width:70px; height: 91px; text-align:center;color: #d93229;}
+.sort em a{color: #d93229; display: block; height: 20px; line-height: 20px; padding-top: 50px;}
+.sort em a.icon0{ background: url(http://s.koudai.com/images/plaza/meizhuang.png?v=1502030101) no-repeat center 15px;background-size: 34px; }
+.sort em a.icon1{background: url(http://s.koudai.com/images/plaza/woman.png?v=1502030101) no-repeat center 15px;background-size: 34px;}
+.sort em a.icon2{background: url(http://s.koudai.com/images/plaza/food.png?v=1502030101) no-repeat center 15px;background-size: 34px;}
+.sort em a.icon3{background: url(http://s.koudai.com/images/plaza/baby.png?v=1502030101) no-repeat center 15px;background-size: 34px;}
+.sort em a.icon4{background: url(http://s.koudai.com/images/plaza/jiaju.png?v=1502030101) no-repeat center 15px;background-size: 34px;}
+.sort em a.icon5{background: url(http://s.koudai.com/images/plaza/man.png?v=1502030101) no-repeat center 15px;background-size: 34px;}
+
+.sort ul{overflow: auto; border-left: #ccc solid 1px; padding-left: 15px; overflow: hidden; height: 71px;}
+
+.sortContent li{ float: left; height: 35px; line-height: 35px; width: 25%; overflow: hidden;border-bottom: #ccc solid 1px;}
+.sortContent li a{ display: block;  }
+
+
+.shopList li{ overflow: hidden; background: #fff; padding: 15px; height: 75px; line-height:60px; padding-bottom: 0px;}
+.shopList li a{ display: block; border-bottom: #eaeaea solid 1px; height: 74px;}
+.shopList li img{ float: left; width: 60px; height: 60px; border-radius: 30px; margin-right: 15px;}
+
+#search-index{
+	padding: 5px 10px 5px 45px;
+
+}
+#search-headindex{ background: #fff; margin:10px 10px 0px 10px;}
+#sort-index{left: 0px; top: 0px; width: 60px; height: 44px; line-height: 44px; border-right:#eaeaea solid 1px; color: #707070; text-align: left; padding-left: 25px; z-index: 2}
+#search-headindex em.down:before{ width: 6px; height: 6px; display: block;  border-top: #828282 solid 1px; border-right: #828282 solid 1px; content: ''; position: absolute; top: 16px; left: 65px; z-index:0; -webkit-transform:rotate(135deg);transform:rotate(135deg);}
+#search-headindex span.list{ left: 0px; top: 48px; width: 95px;  color: #fff; height: 91px; background: #444444; z-index: 2 }
+#search-headindex span.list em{ display: block; height: 45px; line-height: 45px; border-bottom: #5d5d5d solid 1px; padding-left: 22px; }
+#search-headindex span.list em#item{ background: url(http://s.koudai.com/images/plaza/search_item.png?v=1502030101) no-repeat 22px 13px;background-size: 18px; }
+#search-headindex span.list em#shop{ background: url(http://s.koudai.com/images/plaza/search_shop.png?v=1502030101) no-repeat 22px 11px;background-size: 18px;}
+#index_search2{
+	height: 34px; line-height: 38px;
+	width: 100%;
+	border-radius: 0;
+	font-size: 16px;
+	border: none;
+	-webkit-appearance: none; font-weight: normal;; font-size: 14px; color: #707070;
+
+}
+.searchbg{ background: url(http://s.koudai.com/images/common/serch.png?v=1502030101) no-repeat center 16px;  background-size: 14px; display: block; width: 20px; height: 40px; position: absolute; left: 20px;}
+.index_button{right: 12px; font-size: 14px; text-align: center; line-height: 22px;}
+
+
+.plaza_r_i{/*r_i => result_item*/
+    width:100%;
+    height:135px;
+    background-size:100%;
+    background-position:0 center;
+    background-repeat:no-repeat;
+    background-color:#fff;
+}
+.plaza_r_s{
+    width:60px;
+    height:60px;
+    border-radius:30px;
+    background-size:60px;
+    background-position:0 center;
+    background-repeat:no-repeat;
+    background-color:#fff;
+    margin-right:15px;
+}
+
+.nearby{ background-color: #FFFFFF; padding: 0px 12px; margin-top: 10px;margin-bottom: 20px;}
+.nearby a{ display: block; height: 70px; border-bottom: #cccccc solid 1px; padding-top: 5px; position: relative}
+.nearby a.esp{ border: none}
+.nearby a h2{ color: #323232}
+.nearby a p{ color: #707070}
+.nearby a em{ width: 10px; height: 10px; display:block; position: absolute; right: 10px; top: 25px; border-top: #898989 solid 1px; border-right: #898989 solid 1px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transform-origin: 0 100%;
+	-moz-transform-origin: 0 100%;
+	-ms-transform-origin: 0 100%;
+	-o-transform-origin: 0 100%;
+	transform-origin: 0 100%;
+}
+
+
+#hd_enterShop,#hd_enterShop_none{
+    top:0;
+    right:0;
+    padding-right:15px;
+    padding-left:40px;
+    font-size:13px;
+}
+#hd_enterShop_img,#hd_enterShop_none_img{
+    width:32px;
+    height:32px;
+    overflow:hidden;
+    top:6px;
+    left:0;
+}
+#hd_enterShop_img,#hd_enterShop_none_img,#hd_enterShop_img img,#hd_enterShop_none_img img{
+    border-radius:16px;
+}
+.tb_button{right:-63px}
+#search_more{
+    width:100%;
+    display:block;
+    float:left;
+    border:6px solid transparent;
+    margin-top:15px;
+}
+#search_result_empty{
+    padding:30px 0;
+}
+
+
+
+/*优化*/
+#item_classes_list_wrap,#search_result_list_wrap{
+    background-color:#fff;
+    padding-top:10px
+}
+#shop_classes_wrap{
+    background-color:#fff;
+    margin-top:14px;
+    padding:0 17px;
+}
+#shop_classes_ul{
+    top:-1px;
+}
+#shop_classes_li_hd{
+    color:#d93229;
+}
+#shop_classes_li_hd:after{
+    display:none
+}
+.shop_classes_li{
+    font-size:16px;
+    height:50px;
+    line-height:50px;
+    padding-left:4px;
+    padding-right:10px;
+    border-top:1px solid #d3d2d2;
+}
+.shop_classes_li:after{
+    content:"";
+    width:7px;
+    height:7px;
+    border-right:1px solid #5d5d5d;
+    border-bottom:1px solid #5d5d5d;
+    top:21px;
+    right:4px;
+    position:absolute;
+    -webkit-transform:rotate(-45deg);
+       -moz-transform:rotate(-45deg);
+        -ms-transform:rotate(-45deg);
+         -o-transform:rotate(-45deg);
+            transform:rotate(-45deg);
+}

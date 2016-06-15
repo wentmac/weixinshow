@@ -1,0 +1,191 @@
+#succ_ul .i_pri{font-size:16px}
+#paySuccess{
+    background: #fff
+}
+#pay_scuuess{
+    color:#ce3529;
+    height:80px;
+    line-height:80px;
+    border-bottom:1px solid #fff;
+     background: #fff; margin-bottom: 20px;
+}
+.pay_txt{font-size:18px}
+#seller_name,#order_sn,#pay_time,#cash_money{color:#707070}
+#pay_scuuess_bg{
+    width:22px;
+    height:22px;
+    border: #b91c26 solid 1px;
+    border-radius:11px;
+    vertical-align:middle;
+    margin-right:4px
+}
+#pay_scuuess_icon{
+    width:6px;height:12px;overflow:hidden;border-right:2px solid #b91c26;border-bottom:2px solid #b91c26;-webkit-transform:rotate(45deg);transform:rotate(45deg);
+    left:7px;
+    top:2px;
+}
+#succ_ul{
+    padding:0 25px;
+    overflow:hidden; margin-top: 10px;
+   
+}
+.succ_li{
+    padding:20px 0;
+    font-size:14px;
+    line-height:24px;
+   
+}
+/*.btna{
+    height:60px; margin: 20px 10px 0px 10px;
+}
+*/
+/*
+#payLoaded p{ height: 50px; width: 100%; padding-top: 10px;}
+#back_shop{ float: left; width: 48%}
+#order_detail{ /*float: right; width: 48%*/ /*margin:0 10px;}*/
+#back_shop,#order_detail{line-height:45px;height:45px;display:block;margin:0 15px;border-radius:3px;margin-top:20px}
+#back_shop{box-shadow:0 0 0 1px #dedede inset;background-color:#f5f5f5;color:#333}
+#order_detail{text-shadow:1px 1px 0 #d74300;box-shadow:0 0 0 1px #d74300 inset;color:#fff}
+
+
+#fail_wrap{
+    font-size:24px;
+    padding-top:70px;
+}
+#fail_icon_wrap{
+    width:2px;
+}
+#fail_icon{
+    width:20px;
+    height:16px;
+    border-radius:4px;
+    background-color:#ff5000;
+    -webkit-transform:rotate(-15deg);
+    transform:rotate(-15deg);
+    top:-35px;
+    left:-15px;
+}
+#fail_icon_a,#fail_icon_b{
+    width:2px;
+    height:10px;
+    overflow:hidden;
+    background-color:#fff;
+    top:3px;
+    left:9px;
+}
+#fail_icon_a{
+    -webkit-transform:rotate(45deg);
+    transform:rotate(45deg)
+}
+#fail_icon_b{
+    -webkit-transform:rotate(-45deg);
+    transform:rotate(-45deg)
+}
+#fail_icon_arrow{
+	width:0;
+	height:0;
+	border-style:solid;
+	border-width:5px 0 5px 5px;
+	border-color:#ff5000 transparent transparent transparent;
+	top:15px;
+	left:12px;
+}
+.fail_txt{
+    line-height:30px;
+    letter-spacing:2px;
+}
+#risk_wrap{
+    padding-top:35px;
+}
+#risk_icon{
+    width:40px;
+    height:40px;
+    border-radius:20px;
+    background-color:#d9d9d9
+}
+#risk_icon_a,#risk_icon_b{
+    width:4px;
+    height:26px;
+    background-color:#fff;
+    left:18px;
+    top:7px;
+}
+#risk_icon_a{
+    -webkit-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+#risk_icon_b{
+    -webkit-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+}
+#risk_tle{
+    font-size:16px;
+    line-height:50px;
+}
+#cash_total{
+    padding:20px 25px;
+    font-size:14px; color: #707070
+}
+#pay_deli{
+    height:70px;
+    padding-top:45px;
+    line-height:70px;
+    background:url(http://s.koudai.com/images/order/deli_icon.png?v=2015051402) center 20px no-repeat #eaeaea;
+    font-size:18px;
+    background-size:35px;
+}
+#cash_deli_wrap{
+    padding-right:25px;
+    line-height:50px;
+}
+#cash_deli{
+    font-size:30px;
+}
+#seller_name{
+    word-break:break-all;
+}
+#payResult_seller_li{
+    padding-left:75px;
+}
+#payResult_seller_span{
+    top:20px;
+    left:0;
+}
+
+
+.successTxt{ height: 100px; line-height: 100px; font-size: 20px; text-align: center; background: #fff}
+.back_Btn{ background: #fff; height: 60px; padding: 0px 20px;}
+.back_Btn span{ width: 45%}
+.back_Btn span.left{ float: left;}
+.back_Btn span.right{ float: right;}
+.back_Btn span.left a{ background: #e2e1e1}
+
+#succ_ulinfo{ margin-top: 10px; padding: 10px;}
+#succ_ulinfo li{ position: relative; padding-left: 80px; color: #707070; line-height: 40px;}
+#succ_ulinfo li.address{ line-height: 20px; border-bottom: #cacaca solid 1px; padding-bottom: 10px;}
+#succ_ulinfo li.e1{ color: #707070; line-height: 20px; padding-top: 20px;}
+#succ_ulinfo li.e2{color: #707070; line-height: 20px; padding-bottom: 20px;}
+#succ_ulinfo li.e1 span,#succ_ulinfo li.e2 span{ color: #707070}
+#succ_ulinfo li span{ position: absolute; left: 10px; color:#323332; display: block; text-align: right; width: 70px; text-align: left;}
+
+.orderInfo{ height: 45px; line-height: 45px; text-align: center; padding: 0px 10px;}
+.orderInfo a{ display: block; height:45px; border-top: #cacaca solid 1px; font-size: 16px; }
+
+.erweima{ text-align: center; width: 100%; padding-top: 50px;}
+.erweima img{ width: 130px}
+
+#erweimaTxt{ padding:30px 0px 70px; text-align: center;}
+
+#erweimaTxt p.e1{ font-size: 16px;line-height: 24px;}
+#erweimaTxt p.e2{ font-size: 14px;line-height: 22px;}
+#erweimaTxt p.e2 span{ color: #c60a1e}
+
+
+
+
+
+
+
+
+
+

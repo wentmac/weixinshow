@@ -1,0 +1,2 @@
+INSERT INTO `tb_users_type` VALUES('1','超级管理员','1','tb_admin');
+INSERT INTO `tb_users_type` VALUES('2','博客编辑','0','tb_editor');

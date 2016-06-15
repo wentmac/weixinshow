@@ -1,0 +1,2 @@
+INSERT INTO `tb_users` VALUES('1','admin','c3284d0f94606de1fd2af172aba15bf3','麦迪','zwttmac@qq.com','','127.0.0.1','1304699627','0','127.0.0.1','1309272691','16','1');
+INSERT INTO `tb_users` VALUES('2','walton','4f7b4ed6baab2479521e1cbcdf6ddb87','wentao','zwt007@gmail.com','','127.0.0.1','1304701284','0','127.0.0.1','1304702155','8','2');

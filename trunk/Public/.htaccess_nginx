@@ -1,0 +1,4 @@
+error_page	404	/index.php?m=error;	
+location ~* \.(ttf|ttc|otf|eot|woff|woff2)$ {
+	add_header Access-Control-Allow-Origin *;
+}

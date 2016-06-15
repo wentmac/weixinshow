@@ -1,0 +1,67 @@
+.cart_p8{background-image:url(http://s.koudai.com/images/cart/png_8.png?v=1501310102);background-size:50px}.cart_sec{padding:10px}.cart_wrap{overflow:hidden;}.cart_list_title{ background:#f5f5f5;height:45px;line-height:45px;text-indent:20px}#cart_ul,#cart_ul_dis{background-color:#fafafa;font-size:12px}.cart_li,.cart_li_dis,#cart_loading,#cart_empty,#address_loading,#del_all_wrap{height:75px;padding:10px;border-top:1px solid #e3e3e3}#cart_empty{text-align:center;line-height:75px;font-size:16px}.cart_mask{width:20px;height:20px;overflow:hidden;background-position:-20px 0;left:10px;top:37px}.already_mask{background-position:0 0}.cart_img,.cart_img_dis{width:70px;height:70px;padding:2px;border:1px solid #f1f1f1;left:40px;top:10px}.cart_img_dis{left:10px}.cart_tle,.cart_tle_dis{height:30px;line-height:15px;color:#000;display:block;margin-left:115px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;text-overflow:ellipsis}.cart_tle_dis,.cart_des_dis{margin-left:85px}.del_dis_item{right:10px;bottom:10px}#del_all_wrap{height:30px;line-height:30px}#del_all_dis_item{padding:0 5px;border:1px solid #ccc;background-color:#eee;border-radius:5px}.cart_cls{padding-left:115px;color:#999}.control_count{left:125px;top:61px;line-height:26px}.i_pri{font-size:14px}.control_sub,.control_num,.control_add,.control_stock{height:24px;line-height:24px}.control_sub,.control_add{width:24px;font-size:20px;cursor:pointer;border-top:1px solid #e3e3e3;border-bottom:1px solid #e3e3e3;background:#eeefee;background:-webkit-gradient(linear,center top,center bottom,from(#fff),to(#eeefee))}.control_sub{border-left:1px solid #e3e3e3}.control_add{border-right:1px solid #e3e3e3}.control_num{width:60px;border:1px solid #e3e3e3}#address_form{}.address_p{padding-top:15px;padding-right:20px;padding-bottom:15px;padding-left:80px; background: #fff; color:#707070;}.address_p_area{padding-right:32px}.address_p>label{top:19px;left:20px}.input{width:100%;height:30px;line-height:30px;border-bottom:1px solid #e3e3e3;text-indent:6px;font-size:14px; border-radius: 0px;}#detail_add,#remark{text-indent:0;padding-left:6px;padding-right:6px;line-height:20px}#address_wrap{padding-bottom:10px}
+.noborder{ border:none;}
+.address_p select{ margin-bottom: 10px;}
+#cart_footer{display:block;line-height:40px;background-color:#fdfbfb;border-top:1px solid #e3e3e3;position:relative;margin: -41px 10px 60px 10px; overflow: auto; padding:10px; border-radius: 4px;}
+#money_calc{width:100%; border-bottom: #ccc solid 1px;line-height:40px; height:40px}
+#money_count{font-size:14px}
+#address_form p.txt{ height: 42px; line-height: 42px; text-align: center; color: #707070;font-size: 12px}
+#go_cash,#disable_gocash{width:100%;color:#fff;background-color:#d74300; margin-top: 10px; }
+#disable_gocash{height:40px; bottom:0;right:0;z-index:10;background-color:#ccc !important}#iWantWeixinMoney{width:70%;margin:20px auto 10px;height:30px;line-height:30px;color:#ff5000;border:1px solid #ccc;display:block;text-align:center}
+.item_num{
+    width:100%;
+    height:100%;
+    line-height:24px;
+    font-size:14px;
+    color:#000
+}
+#hack_input{
+    height:45px;
+    width:100%;
+    background-color:#fff;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1000000000000;
+}
+.adressinfo{ display: block; margin: 10px auto; padding:10px 30px 10px 20px; position:relative; background-color:#fff}
+.adressinfo:after{
+    content:"";
+    width:8px;
+    height:8px;
+    border-bottom:2px solid #e3e3e3;
+    border-right:2px solid #e3e3e3;
+    right:20px;
+    top:27px;
+    -webkit-transform:rotate(-45deg);
+    position:absolute;
+}
+.adressinfo span{ padding-right: 20px;}
+#captchaSpan{
+    height:30px;
+    line-height:30px;
+    vertical-align:top;
+}
+#captchaSpan img{ width: 70px; height: 29px}
+
+
+#userLogin .cart_wrap{ padding:5px 10px;}
+#userLogin p{ height: 30px; line-height: 30px; color: #666; font-size: 12px;}
+#userLogin p.esp{ height: 35px; line-height: 35px; border-bottom: #ccc solid 1px;font-size: 14px;}
+#changeUser{ float: right; border: #5f646e solid 1px; border-radius: 4px; width: 62px; display: block; height: 24px; line-height: 24px; text-align: center; color: #5f646e; font-size: 12px; margin-top: 3px;}
+#userTel{ float: left; color: #333333}
+#userTel em{ color: #c60a1e;}
+
+#share_wx_addr{
+    padding-left:18px;
+}
+#wx_icon_a{
+    left:8px;
+    top:15px;
+}
+#wx_icon_b{
+    left:14px;
+    top:20px;
+}
+
+#share_position_addr{ right: 20px; color:#ce3529; top: 0px; background: url(http://s.koudai.com/images/cart/adress.png?v=1501310102) no-repeat 10px 16px; background-size: 10px; padding-left: 5px;}
+#changeposition{ height: 40px; line-height: 40px;}

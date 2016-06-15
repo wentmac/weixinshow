@@ -1,0 +1,24 @@
+.content {
+	max-width: 740px;
+	margin: 0 auto
+}
+@media only screen and (min-width: 740px) {
+	.content {
+		-webkit-border-image: url("/v2/image/wap/border-line.png") 2 stretch;
+		-moz-border-image: url("/v2/image/wap/border-line.png") 2 stretch;
+		border-image: url("/v2/image/wap/border-line.png") 2 stretch;
+		border-left: 2px solid #e5e5e5;
+		border-right: 2px solid #e5e5e5;
+		border-bottom: 2px solid #e5e5e5
+	}
+	@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min--moz-device-pixel-ratio: 1.5),
+	only screen and (-o-min-device-pixel-ratio: 3/2),
+	only screen and (min-device-pixel-ratio: 1.5) {
+		.content {
+			border-left-width: 1px;
+			border-right-width: 1px;
+			border-bottom-width: 1px;
+		}
+	}
+}

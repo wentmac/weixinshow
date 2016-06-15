@@ -1,0 +1,15 @@
+/*page*/
+#pages { padding:6px; min-height:24px; text-align:center}
+#pages a, #pages em, #pages kbd, #pages strong, #pages span{ border:1px solid #ccc; padding:5px 8px; margin:0 1px;}
+#pages a:hover { border:1px solid #0580c8;}
+#pages strong { border:1px solid #0580c8; background:#0580c8; color:#fff;}
+#pages span { border:1px solid #999; background:#F2F2F2; color:#999;}
+#pages em { background:#f2f2f2;}
+#pages kbd { background:#f2f2f2; padding:5px 6px 4px 6px;}
+#pages kbd input { width:40px; height:16px; border:1px solid #cad9ea;} 
+
+.page{overflow:hidden; text-align:center; margin:15px 0px 25px 0px;}
+.page a, .page span{background:#FFFFFF; border:1px solid #CCCCCC; display:inline-block; font-family:Arial,Helvetica,sans-serif; font-size:14px; margin-right:5px; padding:2px 8px;}
+.page span.current { background:none; border:none; color:#0e90d2; font-family:Arial,Helvetica,sans-serif; font-size:14px; font-weight:bold;}
+.page span.prev, .page span.next { background:#0e90d2; border:1px solid #0c79b1; color:#FFFFFF; font-weight:normal;}
+

@@ -1,0 +1,186 @@
+DROP TABLE IF EXISTS `tb_article`;
+
+CREATE TABLE `tb_article` (
+  `article_id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '自增id, 主键',
+  `uid` mediumint(8) unsigned NOT NULL COMMENT '作者的uid',
+  `author` varchar(50) NOT NULL COMMENT '作者的呢称',
+  `title` varchar(255) NOT NULL COMMENT 'Article标题',
+  `keywords` varchar(255) NOT NULL,
+  `excerpt` varchar(255) NOT NULL COMMENT 'Article摘要 description',
+  `content` mediumtext NOT NULL,
+  `status` varchar(20) NOT NULL DEFAULT 'publish' COMMENT '文章当前的状态，枚举enum(’publish’,’draft’,’private’,’static’,’object’)值，publish为已 发表，draft为草稿，private为私人内容(不会被公开) ，static(不详)，object(不详)。默认为publish。',
+  `comment_status` varchar(20) NOT NULL DEFAULT 'open' COMMENT '评论设置的状态，也是枚举enum(’open’,’closed’,’registered_only’)值，open为允许评论，closed为不允 许评论，registered_only为只有注册用户方可评论。默认为open，即人人都可以评论。',
+  `name` varchar(200) NOT NULL COMMENT '文章名，varchar(200)值。这通常是用在生成permalink时，标识某篇文章的一段文本或数字，也即post slug。',
+  `edit_time` int(11) NOT NULL COMMENT 'Article最后修改时间',
+  `url` varchar(255) NOT NULL COMMENT '这是每篇文章的一个地址，varchar(255)值。默认是这样的形式: http://your.blog.site/?p=1，如果你形成permalink功能，则通常会是: 你的tblog站点地址+文章名。',
+  `comment_count` bigint(20) NOT NULL COMMENT '评论统计总数',
+  `type` varchar(20) NOT NULL DEFAULT 'post' COMMENT 'Article类型 post文章 page是栏目',
+  `attachments` text NOT NULL COMMENT '附件信息 序列化后的',
+  `time` int(11) NOT NULL COMMENT '发布时间',
+  PRIMARY KEY (`article_id`),
+  KEY `uid` (`uid`),
+  KEY `status` (`status`),
+  KEY `name` (`name`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='用于保存所有的文章(article)的相关信息的表';
+
+DROP TABLE IF EXISTS `tb_attachments`;
+
+CREATE TABLE `tb_attachments` (
+  `attachment_id` int(8) unsigned NOT NULL AUTO_INCREMENT,
+  `article_id` int(11) unsigned NOT NULL,
+  `time` int(11) unsigned NOT NULL COMMENT '上传时间',
+  `filename` varchar(100) NOT NULL,
+  `filetype` varchar(50) NOT NULL,
+  `filesize` int(10) unsigned NOT NULL DEFAULT '0',
+  `downloads` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '下载次数',
+  `filepath` varchar(255) NOT NULL COMMENT '文件路径',
+  `thumb_filepath` varchar(255) NOT NULL COMMENT '缩略图路径',
+  `thumb_width` smallint(6) unsigned NOT NULL DEFAULT '0',
+  `thumb_height` smallint(6) unsigned NOT NULL DEFAULT '0',
+  `isimage` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '1是图片，0不是图片',
+  PRIMARY KEY (`attachment_id`),
+  KEY `article_id` (`article_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='附件信息表';
+
+DROP TABLE IF EXISTS `tb_categories`;
+
+CREATE TABLE `tb_categories` (
+  `cat_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT '每个分类唯一的ID号',
+  `cat_pid` bigint(20) unsigned NOT NULL,
+  `cat_name` varchar(55) NOT NULL COMMENT '某个分类的名称',
+  `category_nicename` varchar(200) NOT NULL COMMENT '指定给分类的一个便于记住的名字，也就是所谓的slug',
+  `category_description` longtext NOT NULL COMMENT '某个分类的详细说明',
+  `cat_order` int(11) unsigned NOT NULL COMMENT '排序',
+  `article_count` int(10) unsigned NOT NULL COMMENT '本栏目的文章总数',
+  PRIMARY KEY (`cat_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='用于保存分类相关信息的表。';
+
+DROP TABLE IF EXISTS `tb_comment`;
+
+CREATE TABLE `tb_comment` (
+  `comment_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `article_id` int(11) unsigned NOT NULL COMMENT 'article_id',
+  `comment_author` varchar(65) NOT NULL COMMENT '评论作者',
+  `comment_author_email` varchar(100) NOT NULL,
+  `comment_author_url` varchar(200) NOT NULL,
+  `comment_author_ip` varchar(100) NOT NULL,
+  `comment_time` int(11) unsigned NOT NULL,
+  `comment_content` text NOT NULL,
+  `comment_approved` varchar(20) NOT NULL COMMENT '每个评论的当前状态，为一个枚举值enum(’0′,’1′,’spam’)，0为等待审核，1为允许发布，spam为垃圾评论。默认值为1。',
+  `comment_agent` varchar(255) NOT NULL COMMENT '每个评论的评论者的客户端信息，varchar(255)值，主要包括其浏览器和操作系统的类型、版本等资料。',
+  `comment_parent` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '某一评论的上级评论，int(11)值，对应wp_comment.ID，默认为0，即无上级评论。',
+  `user_id` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '某一评论对应的用户ID，只有当用户注册后才会生成，int(11)值，对应tb_users.ID。未注册的用户，即外部评论者，这个ID的值为0。',
+  PRIMARY KEY (`comment_id`),
+  KEY `article_id` (`article_id`),
+  KEY `comment_approved` (`comment_approved`),
+  KEY `comment_parent` (`comment_parent`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='评论表';
+
+DROP TABLE IF EXISTS `tb_links`;
+
+CREATE TABLE `tb_links` (
+  `link_id` smallint(10) unsigned NOT NULL AUTO_INCREMENT,
+  `link_url` varchar(255) NOT NULL,
+  `link_name` varchar(100) NOT NULL,
+  `link_image` varchar(255) NOT NULL,
+  `link_target` varchar(25) NOT NULL COMMENT '链接打开的方式，有三种，_blank为以新窗口打开，_top为就在本窗口中打开并在最上一级，none为不选择，会在本窗口中打开。这个字段是varchar(25)值。',
+  `link_description` varchar(255) NOT NULL COMMENT '链接的说明文字。用户可以选择显示在链接下方还是显示在title属性中。varchar(255)值。',
+  `link_state_radio` tinyint(2) unsigned NOT NULL COMMENT '友情链接状态（1:正常2:永久3:停止）',
+  `link_type_radio` tinyint(2) unsigned NOT NULL COMMENT '友情链接类型（1:文字2:图片3:外部图片链接)',
+  `link_order` tinyint(10) unsigned NOT NULL COMMENT '链接排序',
+  `link_starttime` int(11) unsigned NOT NULL COMMENT '友链开始时间',
+  `link_endtime` int(11) unsigned NOT NULL COMMENT '友链结束时间',
+  `link_time` int(11) unsigned NOT NULL COMMENT '链接添加时间',
+  PRIMARY KEY (`link_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `tb_sysconfig`;
+
+CREATE TABLE `tb_sysconfig` (
+  `sys_id` smallint(8) unsigned NOT NULL AUTO_INCREMENT,
+  `varname` varchar(30) NOT NULL COMMENT '配置变量名',
+  `info` varchar(150) NOT NULL COMMENT '配置介绍',
+  `type` varchar(10) NOT NULL COMMENT '配置变量类型string,radio,select,text,bstring',
+  `value` text NOT NULL COMMENT '配置内容',
+  `item` text NOT NULL COMMENT 'select或radio的数据值',
+  `nameaction` varchar(255) NOT NULL COMMENT 'name{|}onclick',
+  `help` varchar(255) NOT NULL COMMENT '配置文件说明帮助',
+  `sys_order` smallint(8) unsigned NOT NULL,
+  PRIMARY KEY (`sys_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='系统配置表';
+
+DROP TABLE IF EXISTS `tb_tags`;
+
+CREATE TABLE `tb_tags` (
+  `tag_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `tag_name` varchar(100) NOT NULL,
+  `tag_usernum` int(11) unsigned NOT NULL COMMENT 'tag使用次数',
+  PRIMARY KEY (`tag_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='tags';
+
+DROP TABLE IF EXISTS `tb_tags_info`;
+
+CREATE TABLE `tb_tags_info` (
+  `tags_info_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `tag_id` int(11) unsigned NOT NULL,
+  `article_id` int(11) unsigned NOT NULL,
+  PRIMARY KEY (`tags_info_id`),
+  KEY `tags_id` (`tag_id`),
+  KEY `article_id` (`article_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='tag使用祥情';
+
+DROP TABLE IF EXISTS `tb_taxonomy`;
+
+CREATE TABLE `tb_taxonomy` (
+  `rel_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `article_id` int(11) unsigned NOT NULL,
+  `cat_id` bigint(20) unsigned NOT NULL COMMENT '分类的ID',
+  PRIMARY KEY (`rel_id`),
+  KEY `fk_taxonomy_article` (`article_id`),
+  KEY `fk_taxonomy_categories` (`cat_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='分类';
+
+DROP TABLE IF EXISTS `tb_users`;
+
+CREATE TABLE `tb_users` (
+  `uid` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `username` varchar(20) NOT NULL,
+  `password` varchar(32) NOT NULL,
+  `nicename` varchar(55) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `url` varchar(100) NOT NULL,
+  `reg_ip` varchar(16) NOT NULL COMMENT '注册IP',
+  `reg_time` int(11) unsigned NOT NULL COMMENT '注册时间',
+  `article_count` int(11) unsigned NOT NULL COMMENT '用户的文章总数',
+  `login_ip` varchar(16) NOT NULL COMMENT '上次登录ip',
+  `login_time` int(11) unsigned NOT NULL COMMENT '上次登录时间',
+  `logincount` smallint(10) unsigned NOT NULL COMMENT '登录次数',
+  `rank` mediumint(5) unsigned NOT NULL,
+  PRIMARY KEY (`uid`),
+  KEY `fk_users_users_type` (`rank`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='用户信息表';
+
+DROP TABLE IF EXISTS `tb_users_log`;
+
+CREATE TABLE `tb_users_log` (
+  `log_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `rank` mediumint(5) unsigned NOT NULL,
+  `uid` int(11) unsigned NOT NULL,
+  `username` varchar(20) NOT NULL,
+  `logip` char(15) NOT NULL,
+  `logtime` int(11) unsigned NOT NULL,
+  PRIMARY KEY (`log_id`),
+  KEY `fk_users_log_users` (`uid`),
+  KEY `fk_users_log_users_type` (`rank`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='用户登录日志表';
+
+DROP TABLE IF EXISTS `tb_users_type`;
+
+CREATE TABLE `tb_users_type` (
+  `rank` mediumint(5) unsigned NOT NULL,
+  `type_name` varchar(30) NOT NULL COMMENT '用户组名',
+  `type_system` smallint(6) NOT NULL COMMENT '系统管理员',
+  `type_purviews` text NOT NULL COMMENT '具体权限',
+  PRIMARY KEY (`rank`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='用户组表';
+

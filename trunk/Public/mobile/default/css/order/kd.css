@@ -1,0 +1,510 @@
+.kd_tle {
+	font-size: 14px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.b_txt {
+	float: right;
+	color: #fff;
+	background-color: #d93229;
+	width: 30%;
+	text-align: center;
+	height: 26px;
+	line-height: 26px;
+	border-radius: 3px;
+}
+.a_txt{
+	color: #d93229;
+	background-color: #fff;
+}
+.o_a {
+	line-height: 18px;
+	width: 70%;
+	display: block;
+	float: left;
+}
+#kd_status {
+	/*height:42px;*/
+	
+	line-height: 51px;
+	position: relative;
+	background-color: #fff;
+	margin: 10px 10px 0px 10px;
+	border-bottom: #e4e4e4 solid 1px;
+	padding: 10px 25px;
+}
+#kd_status span em {
+	color: #d93229
+}
+#kd_status span {
+	display: block;
+	line-height: 25px;
+	color: #707070;	
+}
+#kd_status span i {
+	color: #323232;
+	font-size: 14px;
+	font-style: normal
+}
+#kd_status span.leixing {
+	background: url(http://s.koudai.com/images/user/buykd_bg.png?v=2015022702) no-repeat 0px -45px;
+	background-size: 18px;
+	padding-left: 20px;
+}
+#kd_status span.order {
+	background: url(http://s.koudai.com/images/user/buykd_bg.png?v=2015022702) no-repeat 0px -84px;
+	background-size: 18px;
+	padding-left: 20px;
+}
+#confirm_expire {
+	line-height: 50px;
+	background-color: #f6f5f5;
+	margin: 10px;
+	margin-top: 0px;
+	padding-left: 25px;
+	position: relative;
+}
+#confirm_expire em {
+	color: #d93229;
+	padding-right: 4px;
+}
+#confirm_expire em.time {
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 20px;
+	float: left;
+	margin-top: 13px;
+	display: block;
+	text-align: center;
+	border: #333 solid 1px;
+	margin-right: 6px;
+	padding-right: 0px;
+	color: #323232
+}
+#confirm_expire span.more {
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	width: 9px;
+	height: 9px;
+	border-bottom: 2px solid #717171;
+	border-right: 2px solid #717171;
+	top: 20px;
+	right: 20px;
+	border-radius: 1px;
+	-webkit-transition: -webkit-transform .5s ease;
+	transition: transform .5s ease
+}
+#confirm_expire a {
+	display: block;
+	margin-right: 38px;
+	overflow: hidden;
+	line-height: 20px;
+	padding: 15px 0px;
+}
+section {
+	padding: 12px 8px 0;
+}
+.statue {
+	height: 42px;
+	line-height: 42px;
+	background: #fff;
+	border-bottom: #e3e3e3 solid 1px;
+	font-size: 14px;
+	padding-left: 10px;
+	color: #111111
+}
+.shopList {
+	padding: 8px 10px;
+	max-width: 620px;
+	margin: 0 auto;
+	background: #fff;
+	border-top: 1px solid #e8e8e8;
+	height: 40px;
+}
+#countdown {
+	color: #333
+}
+.shopList p.a7 {
+	height: auto;
+	position: relative;
+	min-height: 50px;
+}
+.shopList p.a7 span {
+	background: #f6f5f5;
+	color: #ce3529;
+	height: 40px;
+	line-height: 40px;
+}
+.shopList p.a7 span a {
+	border-radius: 4px;
+	display: block;
+	color: #fff
+}
+.shopList p.a7 span.e1 {
+	width: 32%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+/*.shopList p.a7 span.e1 em{ background-size: 16px; padding-left: 20px;}*/
+
+.shopList p.a7 span.e2 {
+	margin: 0 auto;
+	width: 28%;
+}
+/*.shopList p.a7 span.e2 em{background: url(http://s.koudai.com/images/order/rank.png?v=2015022702) no-repeat left  bottom; background-size: 16px; padding-left: 20px;}*/
+
+.shopList p.a7 span.e1 a,
+.shopList p.a7 span.e2 a {} .shopList p.a7 span.e3 {
+	width: 32%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background: #cc1011;
+	color: #fff
+}
+.shopList p.a7 span.e3 a {
+	color: #fff
+}
+.shopList p.a7 span.hide {
+	display: none;
+}
+.shopList p.a7 span.width100 {
+	width: 30%
+}
+.shopList p.a7 span.width50 {
+	width: 30%
+}
+.kd_title,
+.kd_wrap {
+	/*box-shadow:0 3px 4px rgba(204,204,204,.8)*/
+	
+	margin-top: 6px;
+}
+.kd_title {
+	/*border-radius:5px 5px 0 0;
+	background-color:#f5f3f3;*/
+	
+	height: 30px;
+	line-height: 20px;
+	/*text-indent:14px;*/
+	/*border-bottom:1px solid #e8e7e7;
+	border-top:1px solid #e8e7e7;*/
+}
+#kd_useradd {
+	color: #707070
+}
+.kd_wrap {
+	/*border-radius:0 0 5px 5px;*/
+	
+	background-color: #fff;
+	padding: 8px 25px;
+	margin: 0px 2px;
+}
+.kd_wrap p span {
+	font-size: 14px;
+}
+.kd_line {
+	padding: 5px 0;
+	border-bottom: 1px solid #e3e3e3
+}
+.kd_orange {
+	color: #ff5006;
+}
+.kd_some {
+	padding-right: 30px
+}
+.hide_kd_some {
+	border: none
+}
+.show_kd_some {
+	border-bottom: 1px solid #e3e3e3
+}
+#kd_some_icon,
+#kd_seller_icon {
+	width: 9px;
+	height: 9px;
+	border-bottom: 2px solid #717171;
+	border-right: 2px solid #717171;
+	top: 23px;
+	right: 6px;
+	border-radius: 1px;
+	-webkit-transition: -webkit-transform .5s ease;
+	transition: transform .5s ease
+}
+.kd_some > #kd_some_icon {
+	display: block
+}
+.hide_kd_some > #kd_some_icon {
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.show_kd_some > #kd_some_icon {
+	-webkit-transform: rotate(-135deg);
+	transform: rotate(-135deg);
+}
+#kd_detail {
+	color: #707070;
+	border-top: #e3e3e3 solid 1px;
+	padding-top: 10px;
+}
+.kd_line:last-child {
+	border: none
+}
+#items_wrap {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+#o_ul {
+	overflow: hidden;
+}
+.o_li {
+	padding: 10px 0;
+	border-bottom: 1px solid #e3e3e3;
+	position: relative;
+	height: 140px;
+}
+.o_a {
+	color: #707070;
+	line-height: 26px;
+}
+.o_img {
+	border: 1px solid #e3e3e3;
+	margin-top: 40px;
+}
+.o_a>p {
+	margin-left: 70px
+}
+.o_name {
+	color: #707070;
+}
+.o_pri {
+	color: #d93229;
+	margin-right: 4px;
+	height: 36px;
+	line-height: 36px;
+	float: left;
+	padding-top: 15px;
+	padding-right: 2px;
+}
+#kd_seller {} #kd_loading_seller {
+	height: 44px;
+}
+#kd_seller {
+	padding: 5px 20px 27px 0;
+	z-index: 9
+}
+#kd_seller img {
+	float: left;
+	width: 55px;
+	height: 55px;
+	border-radius: 28px;
+	margin-right: 15px;
+}
+#kd_tele,
+#comeFindMe,
+#kd_telephone {
+	color: #3b7dc1
+}
+#kd_seller p {
+	padding-top: 5px;
+}
+#kd_telephone {
+	background: url("http://s.koudai.com/images/user/buykd_bg.png") no-repeat 13px 1px;
+	background-size: 18px;
+	padding-left: 30px;
+}
+#kd_tele {
+	left: 65px;
+	bottom: 7px;
+	z-index: 10;
+	background: url("http://s.koudai.com/images/user/buykd_bg.png") no-repeat 6px 4px;
+	background-size: 18px;
+	padding-left: 22px;
+}
+#kd_seller_icon {
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+footer {
+	/*padding:20px 0 12px;*/
+}
+#kd_loading_infos,
+#kd_loading_items,
+#kd_loading_times {
+	height: 100px;
+}
+#kd_loaded_times p,
+#kd_refund_info p {
+	border-bottom: #e3e3e3 solid 1px;
+	height: 50px;
+	line-height: 50px;
+	color: #707070
+}
+/*by abel change price*/
+
+#changePrice {
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	text-indent: 0px;
+	text-align: center;
+	color: #3b7dc1;
+	position: absolute;
+	top: 0px;
+	right: 10px;
+}
+#changePrice em {
+	padding: 0px 10px;
+	background: url("http://s.koudai.com/images/order/update.png") no-repeat center;
+	background-size: 16px;
+}
+/*by abel*/
+
+#kd_loaded_seller {
+	height: 60px;
+}
+#displaybtn {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 10
+}
+/*by abel 2015-01-13*/
+
+#buyerNote {
+	background: #fff;
+	padding: 0px 25px 10px 25px;
+	margin: 0px 2px;
+	color: #707070
+}
+#buyerNote p {
+	position: relative;
+	padding-left: 52px;
+	padding-top: 10px;
+	padding-bottom: 4px
+}
+#buyerNote p span {
+	position: absolute;
+	left: 0px;
+	top: 10px;
+	width: 50px;
+	display: block;
+}
+#buyerNote p.note {
+	border-top: #ccc solid 1px;
+	line-height: 25px;
+	padding-top: 10px;
+}
+/*红包提示*/
+
+.kd_cjhonbao {
+	background: #fff;
+	padding: 0px 25px 10px 25px;
+	margin: 0px 2px;
+	color: #707070;
+	overflow: hidden;
+}
+.kd_cjhonbao p {
+	float: right;
+	position: relative;
+}
+.kd_cjhonbao p.e1 {
+	padding: 0px 20px;
+	text-align: center;
+	background: #ffcdd5;
+	color: #df311d
+}
+.kd_cjhonbao p.e2 {
+	width: 100%;
+	padding-right: 25px;
+	text-align: right;
+	font-size: 10px;
+}
+.kd_cjhonbao p em {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	display: block;
+	border-radius: 5px;
+}
+.kd_cjhonbao p em.e1 {
+	left: -5px;
+	top: 6px;
+}
+.kd_cjhonbao p em.e2 {
+	right: -5px;
+	top: 6px;
+}
+/*.cjhonbao_box{overflow: hidden}
+.cjhongbaotip{background: url("http://s.koudai.com/images/order/cjhongbao.png") no-repeat ;background-size:cover;float:right;text-align:center;color:#d93229; height: 30px; line-height: 30px; padding: 0px 15px;}
+.cjhongbaotip em{ color: #717171; font-size: 10px; padding-left: 6px;}*/
+
+#outdo {
+	line-height: 20px;
+	background: #fff;
+	margin: 0 10px;
+	padding: 10px 0px 10px 44px;
+}
+#reFundCencer {
+	background: #f6f5f5;
+	color: #ce3529;
+}
+#reFund a {
+	color: #ce3529;
+}
+#complaintA {
+	color: #ce3529;
+}
+/*申请退款*/
+
+.closeOrderFloat {
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 10;
+	top: 0px;
+	left: 0px;
+}
+.closeOrderFloat ul {
+	margin: 20px auto 10px;
+	padding: 0px 10px;
+	max-width: 640px;
+}
+.closeOrderFloat li {
+	line-height: 42px;
+	height: 42px;
+	text-align: center;
+	background: #fff;
+	margin-top: 2px;
+}
+.closeOrderFloat span {
+	display: block;
+	padding: 0px 10px;
+}
+.closeOrderFloat span em {
+	display: block;
+	background: #fff;
+	margin: 10px auto;
+	color: #ca2d39;
+	text-align: center;
+	height: 42px;
+	line-height: 42px;
+	width: 100%;
+	max-width: 640px;
+}
+.fixBottom {
+	position: absolute;
+	bottom: 80px;
+	left: 0px;
+	width: 100%;
+	background: #e3e2e2;
+	overflow: auto;
+	height: auto;
+}

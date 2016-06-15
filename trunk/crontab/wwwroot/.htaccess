@@ -1,0 +1,47 @@
+ErrorDocument 404 /index.php?m=error
+<Files *.tpl>
+Order Allow,Deny    
+Deny from all
+</Files>
+RewriteEngine on
+RewriteBase /
+# Allow any files or directories that exist to be displayed directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^index.html$				 /index.php [L]
+#RewriteRule ^([a-zA-Z0-9\.\/_]+)$        index.php?m=$1 [QSA,L]
+#RewriteRule ^(.*)$					 	 index.php?m=$1 [QSA,L]
+
+RewriteRule ^(account)/(\w+)/?$                      /index.php\?m=$1.$2&%1 [QSA,L]
+RewriteRule ^(order|member|others|oauth)/(\w+)/?$                 /m.php\?m=$1.$2&%1 [QSA,L]
+RewriteRule ^(pay)/([a-zA-Z\.]+)/?$                  /index.php\?m=$1/$2&%1 [QSA,L]
+RewriteRule ^(pay)/([a-zA-Z\.]+)/(\d+)$              /index.php\?m=$1/$2&order_refund_id=$3&%1 [QSA,L]
+RewriteRule ^(item)/([0-9]+)\.html$			 		 /index.php\?m=$1&id=$2 [L]
+RewriteRule ^(club|contact|about|supplier|classroom)/?$		 /index.php\?m=index.$1 [L]
+RewriteRule ^(da)/(\w+)\.html$		 				 /index.php\?m=$1.$2&%1 [QSA,L]
+
+#RewriteRule ^weather-([0-9]+)-([0-9]+)\.html$		 /index.php\?m=weather&cityid=$1&xid=$2 [L]
+
+#RewriteRule ^news-c([0-9]+)-([0-9]+)\.html$		 /index.php\?m=news&class_id=$1&page=$2 [L]
+#RewriteRule ^news-c([0-9]+)\.html$			 /index.php\?m=news&class_id=$1 [L]
+#RewriteRule ^newsinfo-([0-9]+)\.html$			 /index.php\?m=newsinfo&aid=$1 [L]
+
+#RewriteRule ^liansuo-([0-9]+)-([0-9]+)\.html$		 /index.php\?m=liansuohotel&cityid=$1&chain_id=$2 [L]
+#RewriteRule ^liansuo-([a-zA-Z_]+)-([0-9]+)\.html$	 /index.php\?m=liansuohotel&$1=$2 [L]
+
+#RewriteRule ^city-([0-9]+)\.html$			 /index.php\?m=city&cityid=$1 [L]
+
+#RewriteRule ^hotel-([0-9]+)-([0-9]+)\.html$		 /index.php\?m=hotelinfo&cityid=$1&hotel_id=$2 [L]
+#RewriteRule ^hotel-([0-9]+)\.html$			 /index.php\?m=hotelinfo&hotel_id=$1 [L]
+#RewriteRule ^(hotelmap|hotelcomment|hotelnearby|hotelpicture|hotelquestion|hotellable)-([0-9]+)\.html$	/index.php\?m=$1&hotel_id=$2 [L]
+
+#RewriteRule ^(comment|question|weather|searchlist)-([0-9]+)-([0-9]+)\.html$	 /index.php\?m=$1&cityid=$2&page=$3 [L]
+#RewriteRule ^hotellist-([0-9]+)\.html?([\w%]*)$		 /index.php\?m=hotellist&cityid=$1&$2 [QSA,L]
+#RewriteRule ^(comment|question|weather|map|hotellist|searchlist)-([0-9]+)\.html$	 /index.php\?m=$1&cityid=$2 [L]
+
+#RewriteRule ^lable-cityid([0-9]+)-([0-9]+)-([0-9]+)\.html$	/index.php\?m=lable&cityid=$1&classid=$2&page=$3 [L]
+#RewriteRule ^lable-(pid|cityid)([0-9]+)-([0-9]*)\.html$	 /index.php\?m=lable&$1=$2&classid=$3 [L]
+#RewriteRule ^lable-([0-9]+)\.html$				/index.php\?m=lable&classid=$1 [L]
+
+#RewriteRule ^admin$		 /index.php\?m=admin [L]
